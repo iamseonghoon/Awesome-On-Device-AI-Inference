@@ -17,7 +17,7 @@ This list highlights academic work focused on running AI models efficiently on r
   * Video super-resolution; Smartphones; GPU
 * [IEEE TMC 2023] NAWQ-SR: A Hybrid-Precision NPU Engine for Efficient On-Device Super-Resolution [(Paper)](https://ieeexplore.ieee.org/iel7/7755/4358975/10066526)
   * Single-image super-resolution; Smartphones; NPU
-* [UbiCom 2022] Efficient On-Device Visual Question Answering [(Paper)](https://dl.acm.org/doi/10.1145/3534619)
+* [UbiComp 2022] Efficient On-Device Visual Question Answering [(Paper)](https://dl.acm.org/doi/10.1145/3534619)
   * Visual question answering; Edge devices and smartphones; GPU
 * [MobiCom 2021] Flexible High-Resolution Object Detection on Edge Devices with Tunable Latency [(Paper)](https://dl.acm.org/doi/10.1145/3447993.3483274)
   * Object detection; Edge devices; GPU
