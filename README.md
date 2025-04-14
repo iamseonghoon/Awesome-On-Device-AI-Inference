@@ -3,16 +3,22 @@ This list highlights academic work focused on running AI models efficiently **on
 
 ### Single-DNN Inference on CPU/GPU
 **Application-specific**
+* [AAAI 2025] E4: Energy-Efficient DNN Inference for Edge Video Analytics Via Early Exiting and DVFS [(Paper)](https://ojs.aaai.org/index.php/AAAI/article/view/32104)
+  * Video analytics with adaptive inference and DVFS; Edge devices (NVIDIA Jetson)
 * [MobiCom 2024] Panopticus: Omnidirectional 3D Object Detection on Resource-constrained Edge Devices [(Paper)](https://arxiv.org/abs/2410.01270)
-  * 3D object detection, adaptive multi-branch inference, Jetson devices
+  * 3D object detection with adaptive multi-branch inference; Edge devices (NVIDIA Jetson)
 * [MobiSys 2023] OmniLive: Super-Resolution Enhanced 360° Video Live Streaming for Mobile Devices [(Paper)](https://dl.acm.org/doi/pdf/10.1145/3581791.3596851)
-  * Video super-resolution, adaptive inference, smartphones
+  * Video super-resolution with adaptive inference; Smartphones (Snapdragon/Exynos)
 * [MobiCom 2020] NEMO: enabling neural-enhanced video streaming on commodity mobile devices [(Paper)](https://dl.acm.org/doi/10.1145/3372224.3419185)
-  * Video super-resolution, smartphones
+  * Video super-resolution; Smartphones (Snapdragon/Exynos)
 
 **General**
+* [SenSys 2024] Fast-Inf: Ultra-Fast Embedded Intelligence on the Batteryless Edge [(Paper)](https://dl.acm.org/doi/abs/10.1145/3666025.3699335)
+  * CNNs; Microcontrollers
 * [ASPLOS 2024] SmartMem: Layout Transformation Elimination and Adaptation for Efficient DNN Execution on Mobile [(Paper)](https://dl.acm.org/doi/10.1145/3620666.3651384)
-  * Transformers
+  * Transformers; Smartphones (Snapdragon/Exynos)
+* [MobiSys 2023] HarvNet: Resource-Optimized Operation of Multi-Exit Deep Neural Networks on Energy Harvesting Devices [(Paper)](https://dl.acm.org/doi/10.1145/3581791.3596845)
+  * CNNs; Microcontrollers
 
 ### Single-DNN Inference on NPU
 * [IEEE TMC 2023] NAWQ-SR: A Hybrid-Precision NPU Engine for Efficient On-Device Super-Resolution [(Paper)](https://dl.acm.org/doi/10.1145/3636534.3690698)
