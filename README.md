@@ -1,5 +1,5 @@
 # Awesome-On-Device-AI-Inference 🔍📲
-This list highlights academic work focused on running AI models efficiently **on resource-constrained mobile devices**, such as smartphones and edge devices. This repo references [Awesome-Mobile-AI-Systems](https://github.com/your-org/Awesome-Mobile-AI-Systems).
+This list highlights academic work focused on running AI models efficiently on resource-constrained mobile devices, such as smartphones and edge devices. This repo references Awesome-Mobile-AI-Systems. We categorize target devices into **Edge Devices** (e.g., NVIDIA Jetson), **Smartphones** (e.g., Snapdragon/Exynos), and **Microcontrollers**, with a primary focus on research conducted for **edge devices and smartphones**.
 
 ### Single-DNN Inference on CPU/GPU
 **Application-specific**
