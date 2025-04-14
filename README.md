@@ -56,4 +56,4 @@ This list highlights academic work focused on running AI models efficiently on r
 * [MobiSys 2022] Band: Coordinated Multi-DNN Inference on Heterogeneous Mobile Processors [(Paper)](https://dl.acm.org/doi/pdf/10.1145/3498361.3538948)
 
 ### Challenges
-* [Mobile AI Workship](https://ai-benchmark.com/workshops/mai/2025/)
+* [Mobile AI Workshop](https://ai-benchmark.com/workshops/mai/2025/)
