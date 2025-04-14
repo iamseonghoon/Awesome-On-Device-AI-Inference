@@ -52,7 +52,7 @@ This list highlights academic work focused on running AI models efficiently on r
 * [IPSN 2023] PointSplit: Towards On-device 3D Object Detection with Heterogeneous Low-power Accelerators [(Paper)](https://dl.acm.org/doi/abs/10.1145/3583120.3587045)
   * 3D object detection; Edge devices; GPU + NPU
 * [MobiCom 2019] MobiSR: Efficient On-Device Super-Resolution through Heterogeneous Mobile Processors [(Paper)](https://dl.acm.org/doi/10.1145/3300061.3345455)
-  * Single-image super-resolution; Smartphones; CPU + GPU + NPU (DSP)
+  * Single-image super-resolution; Smartphones; CPU + GPU + DSP (NPU)
 
 **Traditional vision tasks**
 * [IEEE TMC 2024] Thermal-Aware Scheduling for Deep Learning on Mobile Devices with NPU [(Paper)](https://ieeexplore.ieee.org/document/10478860)
