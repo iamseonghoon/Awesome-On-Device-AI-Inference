@@ -11,25 +11,25 @@ This list highlights academic work focused on running AI models efficiently on r
 ### Single-DNN Inference on Mobile CPU/GPU
 **Application-specific**
 * [AAAI 2025] E4: Energy-Efficient DNN Inference for Edge Video Analytics Via Early Exiting and DVFS [(Paper)](https://ojs.aaai.org/index.php/AAAI/article/view/32104)
-  * Video analytics; Edge devices (NVIDIA Jetson)
+  * Video analytics; Edge devices
 * [MobiCom 2024] Panopticus: Omnidirectional 3D Object Detection on Resource-constrained Edge Devices [(Paper)](https://arxiv.org/abs/2410.01270)
-  * 3D object detection with adaptive multi-branch inference; Edge devices (NVIDIA Jetson)
+  * 3D object detection with adaptive multi-branch inference; Edge devices
 * [MobiSys 2023] OmniLive: Super-Resolution Enhanced 360° Video Live Streaming for Mobile Devices [(Paper)](https://dl.acm.org/doi/pdf/10.1145/3581791.3596851)
-  * Video super-resolution with adaptive inference; Smartphones (Snapdragon/Exynos)
+  * Video super-resolution with adaptive inference; Smartphones
 * [MobiCom 2020] NEMO: enabling neural-enhanced video streaming on commodity mobile devices [(Paper)](https://dl.acm.org/doi/10.1145/3372224.3419185)
-  * Video super-resolution; Smartphones (Snapdragon/Exynos)
+  * Video super-resolution; Smartphones
 
 **General**
 * [TMC 2025] NeuroBalancer: Balancing System Frequencies With Punctual Laziness for Timely and Energy-Efficient DNN Inferences [(Paper)](https://ieeexplore.ieee.org/abstract/document/10819653)
-  * Conventional DNNs; Smartphones (Snapdragon/Exynos)
+  * Conventional DNNs; Smartphones
 * [ASPLOS 2024] SmartMem: Layout Transformation Elimination and Adaptation for Efficient DNN Execution on Mobile [(Paper)](https://dl.acm.org/doi/10.1145/3620666.3651384)
-  * Transformers; Smartphones (Snapdragon/Exynos)
+  * Transformers; Smartphones
 * [MobiCom 2024] Mobile Foundation Model as Firmware [(Paper)](https://dl.acm.org/doi/10.1145/3636534.3649361)
-  * Foundation model; Edge devices (NVIDIA Jetson) and Smartphones (Snapdragon/Exynos)
+  * Foundation model; Edge devices and Smartphones
 * [MobiCom 2022] Romou: Rapidly Generate High-Performance Tensor Kernels for Mobile GPUs [(Paper)](https://dl.acm.org/doi/10.1145/3495243.3517020)
-  * Conventional DNNs; Smartphones (Snapdragon/Exynos)
+  * Conventional DNNs; Smartphones
 * [MobiCom 2021] AsyMo: Scalable and Efficient Deep-Learning Inference on Asymmetric Mobile CPUs [(Paper)](https://dl.acm.org/doi/10.1145/3447993.3448625)
-  * Conventional DNNs; Smartphones (Snapdragon/Exynos)
+  * Conventional DNNs; Smartphones
 
 ### Single-DNN Inference on Mobile NPU
 * [IEEE TMC 2023] NAWQ-SR: A Hybrid-Precision NPU Engine for Efficient On-Device Super-Resolution [(Paper)](https://dl.acm.org/doi/10.1145/3636534.3690698)
@@ -38,7 +38,7 @@ This list highlights academic work focused on running AI models efficiently on r
 ### Single-DNN Inference on Heterogeneous Mobile Processors (CPU, GPU, NPU, etc.)
 * [IEEE TMC 2024] Thermal-Aware Scheduling for Deep Learning on Mobile Devices with NPU [(Paper)](https://ieeexplore.ieee.org/document/10478860)
 * [MobiCom 2024] Perceptual-Centric Image Super-Resolution using Heterogeneous Processors on Mobile Devices [(Paper)](https://dl.acm.org/doi/10.1145/3636534.3690698)
-  * Single-image super-resolution; Smartphones (Snapdragon/Exynos)
+  * Single-image super-resolution; Smartphones
 * [IPSN 2021] Efficient Execution of Deep Neural Networks on Mobile Devices with NPU [(Paper)](https://dl.acm.org/doi/10.1145/3412382.3458272)
 * [MobiCom 2019] MobiSR: Efficient On-Device Super-Resolution through Heterogeneous Mobile Processors [(Paper)](https://dl.acm.org/doi/10.1145/3300061.3345455)
   * Single-image super-resolution
@@ -46,7 +46,7 @@ This list highlights academic work focused on running AI models efficiently on r
 
 ### Multi-DNN Inference on Mobile CPU/GPU
 * [MobiSys 2024] Pantheon: Preemptible Multi-DNN Inference on Mobile Edge GPUs [(Paper)](https://dl.acm.org/doi/pdf/10.1145/3643832.3661878)
-  * Edge devices (NVIDIA Jetson)
+  * Edge devices
 * [SenSys 2023] Miriam: Exploiting Elastic Kernels for Real-time Multi-DNN Inference on Edge GPU [(Paper)](https://dl.acm.org/doi/10.1145/3625687.3625789)
 * [MobiSys 2022] CoDL: efficient CPU-GPU co-execution for deep learning inference on mobile devices [(Paper)](https://dl.acm.org/doi/pdf/10.1145/3498361.3538932)
 
