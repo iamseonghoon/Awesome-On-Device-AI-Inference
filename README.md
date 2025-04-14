@@ -8,7 +8,7 @@ This list highlights academic work focused on running AI models efficiently on r
 * [MobiSys 2023] HarvNet: Resource-Optimized Operation of Multi-Exit Deep Neural Networks on Energy Harvesting Devices [(Paper)](https://dl.acm.org/doi/10.1145/3581791.3596845)
 
 ### Single-DNN Inference on Single Mobile Processors
-**Application-specific**
+**Application-specific tasks**
 * [AAAI 2025] E4: Energy-Efficient DNN Inference for Edge Video Analytics Via Early Exiting and DVFS [(Paper)](https://ojs.aaai.org/index.php/AAAI/article/view/32104)
   * Video analytics; Edge devices; GPU
 * [MobiCom 2024] Panopticus: Omnidirectional 3D Object Detection on Resource-constrained Edge Devices [(Paper)](https://arxiv.org/abs/2410.01270)
@@ -17,16 +17,16 @@ This list highlights academic work focused on running AI models efficiently on r
   * Video super-resolution; Smartphones; GPU
 * [IEEE TMC 2023] NAWQ-SR: A Hybrid-Precision NPU Engine for Efficient On-Device Super-Resolution [(Paper)](https://ieeexplore.ieee.org/iel7/7755/4358975/10066526)
   * Single-image super-resolution; Smartphones; NPU
+* [UbiCom 2022] Efficient On-Device Visual Question Answering [(Paper)](https://dl.acm.org/doi/10.1145/3534619)
+  * Visual question answering; Edge devices and smartphones; GPU
 * [MobiCom 2020] NEMO: enabling neural-enhanced video streaming on commodity mobile devices [(Paper)](https://dl.acm.org/doi/abs/10.1145/3372224.3419185)
   * Video super-resolution; Smartphones; GPU
 
-**General**
+**Traditional vision tasks**
 * [TMC 2025] NeuroBalancer: Balancing System Frequencies With Punctual Laziness for Timely and Energy-Efficient DNN Inferences [(Paper)](https://ieeexplore.ieee.org/abstract/document/10819653)
   * Smartphones; GPU
 * [ASPLOS 2024] SmartMem: Layout Transformation Elimination and Adaptation for Efficient DNN Execution on Mobile [(Paper)](https://dl.acm.org/doi/10.1145/3620666.3651384)
-  * Transformers; Smartphones; GPU
-* [MobiCom 2024] Mobile Foundation Model as Firmware [(Paper)](https://dl.acm.org/doi/10.1145/3636534.3649361)
-  * Foundation model; Edge devices and Smartphones; CPU/GPU
+  * Transformers (Vision + Language); Smartphones; GPU
 * [MobiCom 2022] Romou: Rapidly Generate High-Performance Tensor Kernels for Mobile GPUs [(Paper)](https://dl.acm.org/doi/10.1145/3495243.3517020)
   * Smartphones; GPU
 * [MobiCom 2022] NeuLens: Spatial-based Dynamic Acceleration of Convolutional Neural Networks on Edge [(Paper)]
@@ -34,8 +34,19 @@ This list highlights academic work focused on running AI models efficiently on r
 * [MobiCom 2021] AsyMo: Scalable and Efficient Deep-Learning Inference on Asymmetric Mobile CPUs [(Paper)](https://dl.acm.org/doi/10.1145/3447993.3448625)
   * Smartphones; CPU
 
+**Transformer-based vision/language tasks**
+* [MLSys 2025] MAS-Attention: Memory-Aware Stream Processing for Attention Acceleration on Resource-Constrained Edge Devices [(Paper)](https://arxiv.org/abs/2411.17720)
+  * Edge devices; NPU
+* [ASPLOS 2025] Fast On-device LLM Inference with NPUs [(Paper)](https://dl.acm.org/doi/10.1145/3669940.3707239)
+  * LLM; Smartphones; NPU
+* [ASPLOS 2024] SmartMem: Layout Transformation Elimination and Adaptation for Efficient DNN Execution on Mobile [(Paper)](https://dl.acm.org/doi/10.1145/3620666.3651384)
+  * Smartphones; GPU
+* [MobiCom 2024] Mobile Foundation Model as Firmware [(Paper)](https://dl.acm.org/doi/10.1145/3636534.3649361)
+  * Edge devices and smartphones; CPU/GPU
+
+
 ### Single-DNN Inference on Heterogeneous Mobile Processors
-**Application-specific**
+**Application-specific tasks**
 * [MobiCom 2024] Perceptual-Centric Image Super-Resolution using Heterogeneous Processors on Mobile Devices [(Paper)](https://dl.acm.org/doi/10.1145/3636534.3690698)
   * Single-image super-resolution; Smartphones; GPU + NPU
 * [IPSN 2023] PointSplit: Towards On-device 3D Object Detection with Heterogeneous Low-power Accelerators [(Paper)](https://dl.acm.org/doi/abs/10.1145/3583120.3587045)
@@ -43,7 +54,7 @@ This list highlights academic work focused on running AI models efficiently on r
 * [MobiCom 2019] MobiSR: Efficient On-Device Super-Resolution through Heterogeneous Mobile Processors [(Paper)](https://dl.acm.org/doi/10.1145/3300061.3345455)
   * Single-image super-resolution; Smartphones; CPU + GPU + NPU (DSP)
 
-**General**
+**Traditional vision tasks**
 * [IEEE TMC 2024] Thermal-Aware Scheduling for Deep Learning on Mobile Devices with NPU [(Paper)](https://ieeexplore.ieee.org/document/10478860)
   * GPU + NPU 
 * [ATC 2023] Decentralized Application-Level Adaptive Scheduling for Multi-Instance DNNs on Open Mobile Devices [(Paper)](https://www.usenix.org/system/files/atc23-sung.pdf)
@@ -51,12 +62,18 @@ This list highlights academic work focused on running AI models efficiently on r
 * [IPSN 2021] Efficient Execution of Deep Neural Networks on Mobile Devices with NPU [(Paper)](https://dl.acm.org/doi/10.1145/3412382.3458272)
   * CPU + NPU 
 
+**Transformer-based vision/language tasks**
+* [arXiv 2025] HeteroLLM: Accelerating Large Language Model Inference on Mobile SoCs with Heterogeneous AI Accelerators [(Paper)](https://arxiv.org/abs/2501.14794)
+  * LLM; Smartphones; CPU + GPU + NPU
+* [arXiv 2024] PowerInfer-2: Fast Large Language Model Inference on a Smartphone [(Paper)](https://arxiv.org/abs/2406.06282)
+  * LLM; Smartphones; CPU + NPU
+
 ### Multi-DNN Inference on Single Mobile Processors
-**Application-specific**
+**Application-specific tasks**
 * [MobiCom 2020] Heimdall: Mobile GPU Coordination Platform for Augmented Reality Applications [(Paper)](https://dl.acm.org/doi/10.1145/3372224.3419192)
   * Augmented reality; Smartphones; GPU
 
-**General**
+**Traditional vision tasks**
 * [MobiSys 2024] Pantheon: Preemptible Multi-DNN Inference on Mobile Edge GPUs [(Paper)](https://dl.acm.org/doi/pdf/10.1145/3643832.3661878)
   * Edge devices; GPU
 * [SenSys 2023] Miriam: Exploiting Elastic Kernels for Real-time Multi-DNN Inference on Edge GPU [(Paper)](https://dl.acm.org/doi/10.1145/3625687.3625789)
@@ -65,11 +82,11 @@ This list highlights academic work focused on running AI models efficiently on r
   * NPU
 
 ### Multiple DNN Inference on Heterogeneous Mobile Processors
-**Application-specific**
+**Application-specific tasks**
 * [MobiSys 2025] ARIA: Optimizing Vision Foundation Model Inference on Heterogeneous Mobile Processors for Augmented Reality [(Paper)]()
   * Vision foundation model for augmented reality; Smartphones
 
-**General**
+**Traditional vision tasks**
 * [PPoPP 2024] Shared Memory-contention-aware Concurrent DNN Execution for Diversely Heterogeneous SoCs [(Paper)](https://dl.acm.org/doi/pdf/10.1145/3627535.3638502)
   * Edge devices; GPU + DLA (NPU)
 * [MobiSys 2023] NN-Stretch: Automatic Neural Network Branching for Parallel Inference on Heterogeneous Multi-Processors [(Paper)](https://dl.acm.org/doi/abs/10.1145/3581791.3596870)
