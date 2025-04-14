@@ -2,12 +2,17 @@
 This list highlights academic work focused on running AI models efficiently **on resource-constrained mobile devices**, such as smartphones and edge devices. This repo references [Awesome-Mobile-AI-Systems](https://github.com/your-org/Awesome-Mobile-AI-Systems).
 
 ### Single-DNN Inference on CPU/GPU
+**Application-specific**
 * [MobiCom 2024] Panopticus: Omnidirectional 3D Object Detection on Resource-constrained Edge Devices [(Paper)](https://arxiv.org/abs/2410.01270)
   * 3D object detection, adaptive multi-branch inference, Jetson devices
 * [MobiSys 2023] OmniLive: Super-Resolution Enhanced 360° Video Live Streaming for Mobile Devices [(Paper)](https://dl.acm.org/doi/pdf/10.1145/3581791.3596851)
   * Video super-resolution, adaptive inference, smartphones
 * [MobiCom 2020] NEMO: enabling neural-enhanced video streaming on commodity mobile devices [(Paper)](https://dl.acm.org/doi/10.1145/3372224.3419185)
   * Video super-resolution, smartphones
+
+**General**
+* [ASPLOS 2024] SmartMem: Layout Transformation Elimination and Adaptation for Efficient DNN Execution on Mobile [(Paper)](https://dl.acm.org/doi/10.1145/3620666.3651384)
+  * Transformers
 
 ### Single-DNN Inference on NPU
 * [IEEE TMC 2023] NAWQ-SR: A Hybrid-Precision NPU Engine for Efficient On-Device Super-Resolution [(Paper)](https://dl.acm.org/doi/10.1145/3636534.3690698)
