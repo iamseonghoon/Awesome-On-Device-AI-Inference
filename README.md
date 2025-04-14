@@ -1,5 +1,5 @@
 # Awesome-On-Device-AI-Inference 🔍📲
-This list highlights academic work focused on running AI models efficiently on resource-constrained mobile devices, including (1) **edge devices** (e.g., NVIDIA Jetson), (2) **smartphones** (e.g., Snapdragon/Exynos), (3) and **microcontrollers** for energy-harvesting or batteryless IoT devices, with a primary focus on research conducted for edge devices and smartphones. Just so you know, this repo references [Awesome-On-Device-AI-Systems](https://github.com/jeho-lee/Awesome-On-Device-AI-Systems) by [Jeho Lee](https://jeho-lee.github.io/). 
+This list highlights academic work focused on running AI models efficiently on resource-constrained mobile devices, including (1) **edge devices** (e.g., NVIDIA Jetson), (2) **smartphones** (e.g., Snapdragon/Exynos), (3) and **microcontrollers** for energy-harvesting or batteryless IoT devices, with a primary focus on research conducted for edge devices & smartphones. Just so you know, this repo references [Awesome-On-Device-AI-Systems](https://github.com/jeho-lee/Awesome-On-Device-AI-Systems) by [Jeho Lee](https://jeho-lee.github.io/). 
 
 ### A. Single-DNN Inference on Microcontrollers
 * [SenSys 2025] Lupe: Integrating the Top-down Approach with DNN Execution on Ultra-Low-Power Devices [(Paper)](https://people.cs.uchicago.edu/~myxiang/papers/lupe.pdf)
@@ -18,7 +18,7 @@ This list highlights academic work focused on running AI models efficiently on r
 * [IEEE TMC 2023] NAWQ-SR: A Hybrid-Precision NPU Engine for Efficient On-Device Super-Resolution [(Paper)](https://ieeexplore.ieee.org/iel7/7755/4358975/10066526)
   * Single-image super-resolution; Smartphones; NPU
 * [UbiComp 2022] Efficient On-Device Visual Question Answering [(Paper)](https://dl.acm.org/doi/10.1145/3534619)
-  * Visual question answering; Edge devices and smartphones; GPU
+  * Visual question answering; Edge devices & smartphones; GPU
 * [MobiCom 2021] Flexible High-Resolution Object Detection on Edge Devices with Tunable Latency [(Paper)](https://dl.acm.org/doi/10.1145/3447993.3483274)
   * Object detection; Edge devices; GPU
 * [MobiCom 2020] NEMO: enabling neural-enhanced video streaming on commodity mobile devices [(Paper)](https://dl.acm.org/doi/abs/10.1145/3372224.3419185)
@@ -44,7 +44,7 @@ This list highlights academic work focused on running AI models efficiently on r
 * [ASPLOS 2024] SmartMem: Layout Transformation Elimination and Adaptation for Efficient DNN Execution on Mobile [(Paper)](https://dl.acm.org/doi/10.1145/3620666.3651384)
   * Smartphones; GPU
 * [MobiCom 2024] Mobile Foundation Model as Firmware [(Paper)](https://dl.acm.org/doi/10.1145/3636534.3649361)
-  * Edge devices and smartphones; CPU/GPU
+  * Edge devices & smartphones; CPU or GPU
 
 
 ### B-2. Single-DNN Inference on Heterogeneous Mobile Processors
@@ -86,6 +86,8 @@ This list highlights academic work focused on running AI models efficiently on r
   * Edge devices; GPU
 * [HPCA 2021] Layerweaver: Maximizing Resource Utilization of Neural Processing Units via Layer-Wise Scheduling [(Paper)](https://ieeexplore.ieee.org/document/9407236)
   * NPU (Simulation)
+* [MobiCom 2021] LegoDNN: Block-grained Scaling of Deep Neural Networks for Mobile Vision [(Paper)](https://arxiv.org/abs/2112.09852)
+  * Edge devices & smartphones; CPU or GPU
 
 ### C-2. Multiple DNN Inference on Heterogeneous Mobile Processors
 **Application-specific tasks**
@@ -103,7 +105,6 @@ This list highlights academic work focused on running AI models efficiently on r
   * Smartphones; CPU + GPU
 * [SenSys 2022] BlastNet: Exploiting Duo-Blocks for Cross-Processor Real-Time DNN Inference [(Paper)](https://dl.acm.org/doi/10.1145/3560905.3568520)
   * Edge devices; CPU + GPU
-
 
 ### Challenges
 * [Mobile AI Workshop](https://ai-benchmark.com/workshops/mai/2025/)
