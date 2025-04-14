@@ -19,6 +19,8 @@ This list highlights academic work focused on running AI models efficiently on r
   * Single-image super-resolution; Smartphones; NPU
 * [UbiCom 2022] Efficient On-Device Visual Question Answering [(Paper)](https://dl.acm.org/doi/10.1145/3534619)
   * Visual question answering; Edge devices and smartphones; GPU
+* [MobiCom 2021] Flexible High-Resolution Object Detection on Edge Devices with Tunable Latency [(Paper)](https://dl.acm.org/doi/10.1145/3447993.3483274)
+  * Object detection; Edge devices; GPU
 * [MobiCom 2020] NEMO: enabling neural-enhanced video streaming on commodity mobile devices [(Paper)](https://dl.acm.org/doi/abs/10.1145/3372224.3419185)
   * Video super-resolution; Smartphones; GPU
 
