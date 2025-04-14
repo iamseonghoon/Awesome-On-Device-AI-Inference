@@ -60,11 +60,11 @@ This list highlights academic work focused on running AI models efficiently on r
 * [EuroSys 2025] Flex: Fast, Accurate DNN Inference on Low-Cost Edges Using Heterogeneous Accelerator Execution [(Paper)](https://dl.acm.org/doi/10.1145/3689031.3696067)
   * Smartphones; CPU + GPU + NPU (TPU/DSP)
 * [IEEE TMC 2024] Thermal-Aware Scheduling for Deep Learning on Mobile Devices with NPU [(Paper)](https://ieeexplore.ieee.org/document/10478860)
-  * GPU + NPU 
+  * Smartphones; GPU + NPU 
 * [ATC 2023] Decentralized Application-Level Adaptive Scheduling for Multi-Instance DNNs on Open Mobile Devices [(Paper)](https://www.usenix.org/system/files/atc23-sung.pdf)
-  * CPU + GPU 
+  * Smartphones; CPU + GPU 
 * [IPSN 2021] Efficient Execution of Deep Neural Networks on Mobile Devices with NPU [(Paper)](https://dl.acm.org/doi/10.1145/3412382.3458272)
-  * CPU + NPU 
+  * Smartphones; CPU + NPU 
 
 **Transformer-based vision/language tasks**
 * [INFOCOM 2024] Galaxy: A Resource-Efficient Collaborative Edge AI System for In-situ Transformer Inference [(Paper)](https://ieeexplore.ieee.org/abstract/document/10621342)
