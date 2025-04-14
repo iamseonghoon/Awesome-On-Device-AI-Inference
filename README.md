@@ -1,5 +1,5 @@
 # Awesome-On-Device-AI-Inference 🔍📲
-This list highlights academic work focused on running AI models efficiently on resource-constrained mobile devices, such as smartphones and edge devices. This repo references [Awesome-On-Device-AI-Systems](https://github.com/jeho-lee/Awesome-On-Device-AI-Systems). We categorize target devices into **Edge Devices** (e.g., NVIDIA Jetson), **Smartphones** (e.g., Snapdragon/Exynos), and **Microcontrollers**, with a primary focus on research conducted for edge devices and smartphones.
+This list highlights academic work focused on running AI models efficiently on resource-constrained mobile devices, such as smartphones and edge devices. This repo references [Awesome-On-Device-AI-Systems](https://github.com/jeho-lee/Awesome-On-Device-AI-Systems). We categorize target devices into **Edge Devices** (e.g., NVIDIA Jetson), **Smartphones** (e.g., Snapdragon/Exynos), and **Microcontrollers** for energy-harvesting or batteryless IoT devices, with a primary focus on research conducted for edge devices and smartphones.
 
 ### Single-DNN Inference on Microcontrollers
 * [SenSys 2025] Lupe: Integrating the Top-down Approach with DNN Execution on Ultra-Low-Power Devices [(Paper)](https://people.cs.uchicago.edu/~myxiang/papers/lupe.pdf)
