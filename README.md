@@ -13,20 +13,27 @@ This list highlights academic work focused on running AI models efficiently on r
   * Video super-resolution; Smartphones (Snapdragon/Exynos)
 
 **General**
+* [SenSys 2025] Lupe: Integrating the Top-down Approach with DNN Execution on Ultra-Low-Power Devices [(Paper)](https://people.cs.uchicago.edu/~myxiang/papers/lupe.pdf)
+  * Conventional DNNs; Microcontrollers
+* [SenSys 2024] Intermittent Inference: Trading a 1% Accuracy Loss for a 1.9 x Throughput Speedup [(Paper)](https://dl.acm.org/doi/10.1145/3666025.3699364)
+  * Conventional DNNs; Microcontrollers
 * [SenSys 2024] Fast-Inf: Ultra-Fast Embedded Intelligence on the Batteryless Edge [(Paper)](https://dl.acm.org/doi/abs/10.1145/3666025.3699335)
-  * CNNs; Microcontrollers
+  * Conventional DNNs; Microcontrollers
 * [ASPLOS 2024] SmartMem: Layout Transformation Elimination and Adaptation for Efficient DNN Execution on Mobile [(Paper)](https://dl.acm.org/doi/10.1145/3620666.3651384)
   * Transformers; Smartphones (Snapdragon/Exynos)
+* [MobiCom 2024] Mobile Foundation Model as Firmware [(Paper)](https://dl.acm.org/doi/10.1145/3636534.3649361)
+  * A foundation model; Edge devices (NVIDIA Jetson) and Smartphones (Snapdragon/Exynos)
 * [MobiSys 2023] HarvNet: Resource-Optimized Operation of Multi-Exit Deep Neural Networks on Energy Harvesting Devices [(Paper)](https://dl.acm.org/doi/10.1145/3581791.3596845)
-  * CNNs; Microcontrollers
+  * Conventional DNNs; Microcontrollers
 
 ### Single-DNN Inference on NPU
 * [IEEE TMC 2023] NAWQ-SR: A Hybrid-Precision NPU Engine for Efficient On-Device Super-Resolution [(Paper)](https://dl.acm.org/doi/10.1145/3636534.3690698)
   * Single-image super-resolution
 
 ### Single-DNN Inference on Heterogeneous Processors (CPU, GPU, NPU, etc.)
+* [IEEE TMC 2024] Thermal-Aware Scheduling for Deep Learning on Mobile Devices with NPU [(Paper)](https://ieeexplore.ieee.org/document/10478860)
 * [MobiCom 2024] Perceptual-Centric Image Super-Resolution using Heterogeneous Processors on Mobile Devices [(Paper)](https://dl.acm.org/doi/10.1145/3636534.3690698)
-  * Single-image super-resolution
+  * Single-image super-resolution; Smartphones (Snapdragon/Exynos)
 * [IPSN 2021] Efficient Execution of Deep Neural Networks on Mobile Devices with NPU [(Paper)](https://dl.acm.org/doi/10.1145/3412382.3458272)
 * [MobiCom 2019] MobiSR: Efficient On-Device Super-Resolution through Heterogeneous Mobile Processors [(Paper)](https://dl.acm.org/doi/10.1145/3300061.3345455)
   * Single-image super-resolution
@@ -34,6 +41,7 @@ This list highlights academic work focused on running AI models efficiently on r
 
 ### Multi-DNN Inference on CPU/GPU
 * [MobiSys 2024] Pantheon: Preemptible Multi-DNN Inference on Mobile Edge GPUs [(Paper)](https://dl.acm.org/doi/pdf/10.1145/3643832.3661878)
+  * Edge devices (NVIDIA Jetson)
 * [SenSys 2023] Miriam: Exploiting Elastic Kernels for Real-time Multi-DNN Inference on Edge GPU [(Paper)](https://dl.acm.org/doi/10.1145/3625687.3625789)
 * [MobiSys 2022] CoDL: efficient CPU-GPU co-execution for deep learning inference on mobile devices [(Paper)](https://dl.acm.org/doi/pdf/10.1145/3498361.3538932)
 
