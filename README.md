@@ -4,11 +4,11 @@ This list highlights academic work focused on running AI models efficiently **on
 ## Single-DNN Inference on CPU/GPU
 **Application-specific**
 * [MobiCom 2024] Panopticus: Omnidirectional 3D Object Detection on Resource-constrained Edge Devices [(Paper)](https://arxiv.org/abs/2410.01270)
-  * 3D object detection, adaptive multi-branch inference
+  * 3D object detection, adaptive multi-branch inference, edge devices
 * [MobiSys 2023] OmniLive: Super-Resolution Enhanced 360° Video Live Streaming for Mobile Devices [(Paper)](https://dl.acm.org/doi/pdf/10.1145/3581791.3596851)
-  * Video super-resolution, adaptive inference
+  * Video super-resolution, adaptive inference, smartphones
 * [MobiCom 2020] NEMO: enabling neural-enhanced video streaming on commodity mobile devices [(Paper)](https://dl.acm.org/doi/10.1145/3372224.3419185)
-  * Video super-resolution
+  * Video super-resolution, smartphones
 
 **General**
 
