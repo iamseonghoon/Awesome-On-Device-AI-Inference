@@ -3,7 +3,7 @@ This list highlights academic work focused on running AI models efficiently **on
 
 This repo references [Awesome-Mobile-AI-Systems](https://github.com/your-org/Awesome-Mobile-AI-Systems) for broader system-level work.
 
-## Single-DNN Inference on CPU/GPU
+### Single-DNN Inference on CPU/GPU
 Application-specific
 * [MobiCom 2024] Panopticus: Omnidirectional 3D Object Detection on Resource-constrained Edge Devices [(Paper)](https://arxiv.org/abs/2410.01270)
   * 3D object detection, adaptive multi-branch inference
@@ -15,13 +15,13 @@ Application-specific
 General
 
 
-## Single-DNN Inference on NPU
+### Single-DNN Inference on NPU
 Application-specific
 * [IEEE TMC 2023] NAWQ-SR: A Hybrid-Precision NPU Engine for Efficient On-Device Super-Resolution [(Paper)](https://dl.acm.org/doi/10.1145/3636534.3690698)
   * Single-image super-resolution
 
 
-## Single-DNN Inference on Heterogeneous Processors (CPU, GPU, NPU, etc.)
+### Single-DNN Inference on Heterogeneous Processors (CPU, GPU, NPU, etc.)
 Application-specific
 * [MobiCom 2024] Perceptual-Centric Image Super-Resolution using Heterogeneous Processors on Mobile Devices [(Paper)](https://dl.acm.org/doi/10.1145/3636534.3690698)
   * Single-image super-resolution
@@ -29,16 +29,16 @@ Application-specific
   * Single-image super-resolution
 
 
-## Multi-DNN Inference on CPU/GPU
+### Multi-DNN Inference on CPU/GPU
 General
 * [MobiSys 2024] Pantheon: Preemptible Multi-DNN Inference on Mobile Edge GPUs [(Paper)](https://dl.acm.org/doi/pdf/10.1145/3643832.3661878)
 * [SenSys 2023] Miriam: Exploiting Elastic Kernels for Real-time Multi-DNN Inference on Edge GPU [(Paper)](https://dl.acm.org/doi/10.1145/3625687.3625789)
 * [MobiSys 2022] CoDL: efficient CPU-GPU co-execution for deep learning inference on mobile devices [(Paper)](https://dl.acm.org/doi/pdf/10.1145/3498361.3538932)
 
-## Multi-DNN Inference on NPU
+### Multi-DNN Inference on NPU
 
 
-## Multiple DNN Inference on Heterogeneous Processors (CPU, GPU, NPU, etc.)
+### Multiple DNN Inference on Heterogeneous Processors (CPU, GPU, NPU, etc.)
 Application-specific
 * [MobiSys 2025] ARIA: Optimizing Vision Foundation Model Inference on Heterogeneous Mobile Processors for Augmented Reality [(Paper)]()
   * Augmented reality (depth estimation, semantic segmentation, etc.)
@@ -48,5 +48,5 @@ General
 * [MobiSys 2023] NN-Stretch: Automatic Neural Network Branching for Parallel Inference on Heterogeneous Multi-Processors [(Paper)](https://dl.acm.org/doi/pdf/10.1145/3472381.3479910)
 * [MobiSys 2022] Band: Coordinated Multi-DNN Inference on Heterogeneous Mobile Processors [(Paper)](https://dl.acm.org/doi/pdf/10.1145/3498361.3538948)
 
-## Challenges
+### Challenges
 * [Mobile AI Workship](https://ai-benchmark.com/workshops/mai/2025/)
