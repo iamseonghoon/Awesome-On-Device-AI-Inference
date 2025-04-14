@@ -1,13 +1,13 @@
 # Awesome-On-Device-AI-Inference 🔍📲
 This list highlights academic work focused on running AI models efficiently on resource-constrained mobile devices, such as smartphones and edge devices. This repo references [Awesome-On-Device-AI-Systems](https://github.com/jeho-lee/Awesome-On-Device-AI-Systems). We categorize target devices into (1) **Edge Devices** (e.g., NVIDIA Jetson), (2) **Smartphones** (e.g., Snapdragon/Exynos), (3) and **Microcontrollers** for energy-harvesting or batteryless IoT devices, with a primary focus on research conducted for edge devices and smartphones.
 
-### Single-DNN Inference on Microcontrollers
+### A. Single-DNN Inference on Microcontrollers
 * [SenSys 2025] Lupe: Integrating the Top-down Approach with DNN Execution on Ultra-Low-Power Devices [(Paper)](https://people.cs.uchicago.edu/~myxiang/papers/lupe.pdf)
 * [SenSys 2024] Intermittent Inference: Trading a 1% Accuracy Loss for a 1.9 x Throughput Speedup [(Paper)](https://dl.acm.org/doi/10.1145/3666025.3699364)
 * [SenSys 2024] Fast-Inf: Ultra-Fast Embedded Intelligence on the Batteryless Edge [(Paper)](https://dl.acm.org/doi/abs/10.1145/3666025.3699335)
 * [MobiSys 2023] HarvNet: Resource-Optimized Operation of Multi-Exit Deep Neural Networks on Energy Harvesting Devices [(Paper)](https://dl.acm.org/doi/10.1145/3581791.3596845)
 
-### Single-DNN Inference on Single Mobile Processors
+### B-1. Single-DNN Inference on Single Mobile Processors
 **Application-specific tasks**
 * [AAAI 2025] E4: Energy-Efficient DNN Inference for Edge Video Analytics Via Early Exiting and DVFS [(Paper)](https://ojs.aaai.org/index.php/AAAI/article/view/32104)
   * Video analytics; Edge devices; GPU
@@ -45,7 +45,7 @@ This list highlights academic work focused on running AI models efficiently on r
   * Edge devices and smartphones; CPU/GPU
 
 
-### Single-DNN Inference on Heterogeneous Mobile Processors
+### B-2. Single-DNN Inference on Heterogeneous Mobile Processors
 **Application-specific tasks**
 * [MobiCom 2024] Perceptual-Centric Image Super-Resolution using Heterogeneous Processors on Mobile Devices [(Paper)](https://dl.acm.org/doi/10.1145/3636534.3690698)
   * Single-image super-resolution; Smartphones; GPU + NPU
@@ -63,12 +63,14 @@ This list highlights academic work focused on running AI models efficiently on r
   * CPU + NPU 
 
 **Transformer-based vision/language tasks**
+* [INFOCOM 2024] Galaxy: A Resource-Efficient Collaborative Edge AI System for In-situ Transformer Inference [(Paper)](https://ieeexplore.ieee.org/abstract/document/10621342)
+  * Smartphones; CPU + GPU
 * [arXiv 2025] HeteroLLM: Accelerating Large Language Model Inference on Mobile SoCs with Heterogeneous AI Accelerators [(Paper)](https://arxiv.org/abs/2501.14794)
   * LLM; Smartphones; CPU + GPU + NPU
 * [arXiv 2024] PowerInfer-2: Fast Large Language Model Inference on a Smartphone [(Paper)](https://arxiv.org/abs/2406.06282)
   * LLM; Smartphones; CPU + NPU
 
-### Multi-DNN Inference on Single Mobile Processors
+### C-1. Multi-DNN Inference on Single Mobile Processors
 **Application-specific tasks**
 * [MobiCom 2020] Heimdall: Mobile GPU Coordination Platform for Augmented Reality Applications [(Paper)](https://dl.acm.org/doi/10.1145/3372224.3419192)
   * Augmented reality; Smartphones; GPU
@@ -81,7 +83,7 @@ This list highlights academic work focused on running AI models efficiently on r
 * [HPCA 2021] Layerweaver: Maximizing Resource Utilization of Neural Processing Units via Layer-Wise Scheduling [(Paper)](https://ieeexplore.ieee.org/document/9407236)
   * NPU
 
-### Multiple DNN Inference on Heterogeneous Mobile Processors
+### C-2. Multiple DNN Inference on Heterogeneous Mobile Processors
 **Application-specific tasks**
 * [MobiSys 2025] ARIA: Optimizing Vision Foundation Model Inference on Heterogeneous Mobile Processors for Augmented Reality [(Paper)]()
   * Vision foundation model for augmented reality; Smartphones
@@ -95,6 +97,9 @@ This list highlights academic work focused on running AI models efficiently on r
   * Smartphones; CPU + GPU + DSP + NPU
 * [MobiSys 2022] CoDL: efficient CPU-GPU co-execution for deep learning inference on mobile devices [(Paper)](https://dl.acm.org/doi/pdf/10.1145/3498361.3538932)
   * Smartphones; CPU + GPU
+* [SenSys 2022] BlastNet: Exploiting Duo-Blocks for Cross-Processor Real-Time DNN Inference [(Paper)](https://dl.acm.org/doi/10.1145/3560905.3568520)
+  * Edge devices; CPU + GPU
+
 
 ### Challenges
 * [Mobile AI Workshop](https://ai-benchmark.com/workshops/mai/2025/)
