@@ -34,12 +34,13 @@ This list highlights academic work focused on running AI models efficiently **on
 * [MobiSys 2022] CoDL: efficient CPU-GPU co-execution for deep learning inference on mobile devices [(Paper)](https://dl.acm.org/doi/pdf/10.1145/3498361.3538932)
 
 ## Multi-DNN Inference on NPU
-
+**General**
+* [HPCA 2021] Layerweaver: Maximizing Resource Utilization of Neural Processing Units via Layer-Wise Scheduling [(Paper)](https://ieeexplore.ieee.org/document/9407236)
 
 ## Multiple DNN Inference on Heterogeneous Processors (CPU, GPU, NPU, etc.)
 **Application-specific**
 * [MobiSys 2025] ARIA: Optimizing Vision Foundation Model Inference on Heterogeneous Mobile Processors for Augmented Reality [(Paper)]()
-  * Augmented reality (depth estimation, semantic segmentation, etc.)
+  * Vision foundation model, augmented reality (depth estimation, semantic segmentation, etc.)
 
 **General**
 * [PPoPP 2024] Shared Memory-contention-aware Concurrent DNN Execution for Diversely Heterogeneous SoCs [(Paper)](https://dl.acm.org/doi/pdf/10.1145/3627535.3638502)
