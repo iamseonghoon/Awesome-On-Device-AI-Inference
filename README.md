@@ -37,6 +37,8 @@ This list highlights academic work focused on running AI models efficiently on r
 **Transformer-based vision/language tasks**
 * [MLSys 2025] MAS-Attention: Memory-Aware Stream Processing for Attention Acceleration on Resource-Constrained Edge Devices [(Paper)](https://arxiv.org/abs/2411.17720)
   * Edge devices; NPU
+* [MLSys 2025] Efficient LLM Inference using Dynamic Input Pruning and Cache-Aware Masking [(Paper)](https://arxiv.org/abs/2412.01380)
+  * LLM; Smartphones; NPU (Simulation)
 * [ASPLOS 2025] Fast On-device LLM Inference with NPUs [(Paper)](https://dl.acm.org/doi/10.1145/3669940.3707239)
   * LLM; Smartphones; NPU
 * [ASPLOS 2024] SmartMem: Layout Transformation Elimination and Adaptation for Efficient DNN Execution on Mobile [(Paper)](https://dl.acm.org/doi/10.1145/3620666.3651384)
@@ -81,7 +83,7 @@ This list highlights academic work focused on running AI models efficiently on r
 * [SenSys 2023] Miriam: Exploiting Elastic Kernels for Real-time Multi-DNN Inference on Edge GPU [(Paper)](https://dl.acm.org/doi/10.1145/3625687.3625789)
   * Edge devices; GPU
 * [HPCA 2021] Layerweaver: Maximizing Resource Utilization of Neural Processing Units via Layer-Wise Scheduling [(Paper)](https://ieeexplore.ieee.org/document/9407236)
-  * NPU
+  * NPU (Simulation)
 
 ### C-2. Multiple DNN Inference on Heterogeneous Mobile Processors
 **Application-specific tasks**
