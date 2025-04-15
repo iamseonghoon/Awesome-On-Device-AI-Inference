@@ -25,6 +25,8 @@ This list highlights academic work focused on running AI models efficiently on r
   * CNN and RNN; Smartphones; CPU
 
 **Application-specific optimization**
+* [MobiSys 2025] ARIA: Optimizing Vision Foundation Model Inference on Heterogeneous Mobile Processors for Augmented Reality (To Appear)
+  * Vision foundation model for augmented reality; Smartphones
 * [AAAI 2025] E4: Energy-Efficient DNN Inference for Edge Video Analytics Via Early Exiting and DVFS [(Paper)](https://ojs.aaai.org/index.php/AAAI/article/view/32104)
   * Video analytics; Edge devices; GPU
 * [MobiCom 2024] Panopticus: Omnidirectional 3D Object Detection on Resource-constrained Edge Devices [(Paper)](https://arxiv.org/abs/2410.01270)
@@ -108,9 +110,6 @@ This list highlights academic work focused on running AI models efficiently on r
 * [RTSS 2019] Pipelined Data-Parallel CPU/GPU Scheduling for Multi-DNN Real-Time Inference [(Paper)](https://ieeexplore.ieee.org/document/9052147)
   * Edge devices (NVIDIA TX2) and desktop-level devices (Intel x86 Xeon); CPU + GPU
 
-**Application-specific optimization**
-* [MobiSys 2025] ARIA: Optimizing Vision Foundation Model Inference on Heterogeneous Mobile Processors for Augmented Reality [(Paper)]()
-  * Vision foundation model for augmented reality; Smartphones
 
 ### C. Single-DNN Inference on Microcontrollers
 * [SenSys 2025] Lupe: Integrating the Top-down Approach with DNN Execution on Ultra-Low-Power Devices [(Paper)](https://people.cs.uchicago.edu/~myxiang/papers/lupe.pdf)
