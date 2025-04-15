@@ -2,22 +2,6 @@
 This list highlights academic work focused on running AI models efficiently on resource-constrained mobile devices, including (1) **edge devices** (e.g., NVIDIA Jetson), (2) **smartphones** (e.g., Snapdragon/Exynos), (3) and **microcontrollers** for energy-harvesting or batteryless IoT devices, with a primary focus on research conducted for edge devices & smartphones. Just so you know, this repo references [Awesome-On-Device-AI-Systems](https://github.com/jeho-lee/Awesome-On-Device-AI-Systems) by [Jeho Lee](https://jeho-lee.github.io/). 
 
 ### A-1. Single-DNN Inference on Single Mobile Processors
-**Application-specific optimization**
-* [AAAI 2025] E4: Energy-Efficient DNN Inference for Edge Video Analytics Via Early Exiting and DVFS [(Paper)](https://ojs.aaai.org/index.php/AAAI/article/view/32104)
-  * Video analytics; Edge devices; GPU
-* [MobiCom 2024] Panopticus: Omnidirectional 3D Object Detection on Resource-constrained Edge Devices [(Paper)](https://arxiv.org/abs/2410.01270)
-  * 3D object detection; Edge devices; GPU
-* [MobiSys 2023] OmniLive: Super-Resolution Enhanced 360° Video Live Streaming for Mobile Devices [(Paper)](https://dl.acm.org/doi/abs/10.1145/3581791.3596851)
-  * Video super-resolution; Smartphones; GPU
-* [IEEE TMC 2023] NAWQ-SR: A Hybrid-Precision NPU Engine for Efficient On-Device Super-Resolution [(Paper)](https://ieeexplore.ieee.org/iel7/7755/4358975/10066526)
-  * Single-image super-resolution; Smartphones; NPU
-* [UbiComp 2022] Efficient On-Device Visual Question Answering [(Paper)](https://dl.acm.org/doi/10.1145/3534619)
-  * Visual question answering; Edge devices & smartphones; GPU
-* [MobiCom 2021] Flexible High-Resolution Object Detection on Edge Devices with Tunable Latency [(Paper)](https://dl.acm.org/doi/10.1145/3447993.3483274)
-  * Object detection; Edge devices; GPU
-* [MobiCom 2020] NEMO: enabling neural-enhanced video streaming on commodity mobile devices [(Paper)](https://dl.acm.org/doi/abs/10.1145/3372224.3419185)
-  * Video super-resolution; Smartphones; GPU
-
 **General DNN inference**
 * [MLSys 2025] MAS-Attention: Memory-Aware Stream Processing for Attention Acceleration on Resource-Constrained Edge Devices [(Paper)](https://arxiv.org/abs/2411.17720)
   * Attention-based NN; Edge devices; NPU
@@ -40,16 +24,23 @@ This list highlights academic work focused on running AI models efficiently on r
 * [MobiCom 2021] AsyMo: Scalable and Efficient Deep-Learning Inference on Asymmetric Mobile CPUs [(Paper)](https://dl.acm.org/doi/10.1145/3447993.3448625)
   * CNN and RNN; Smartphones; CPU
 
+**Application-specific optimization**
+* [AAAI 2025] E4: Energy-Efficient DNN Inference for Edge Video Analytics Via Early Exiting and DVFS [(Paper)](https://ojs.aaai.org/index.php/AAAI/article/view/32104)
+  * Video analytics; Edge devices; GPU
+* [MobiCom 2024] Panopticus: Omnidirectional 3D Object Detection on Resource-constrained Edge Devices [(Paper)](https://arxiv.org/abs/2410.01270)
+  * 3D object detection; Edge devices; GPU
+* [MobiSys 2023] OmniLive: Super-Resolution Enhanced 360° Video Live Streaming for Mobile Devices [(Paper)](https://dl.acm.org/doi/abs/10.1145/3581791.3596851)
+  * Video super-resolution; Smartphones; GPU
+* [IEEE TMC 2023] NAWQ-SR: A Hybrid-Precision NPU Engine for Efficient On-Device Super-Resolution [(Paper)](https://ieeexplore.ieee.org/iel7/7755/4358975/10066526)
+  * Single-image super-resolution; Smartphones; NPU
+* [UbiComp 2022] Efficient On-Device Visual Question Answering [(Paper)](https://dl.acm.org/doi/10.1145/3534619)
+  * Visual question answering; Edge devices & smartphones; GPU
+* [MobiCom 2021] Flexible High-Resolution Object Detection on Edge Devices with Tunable Latency [(Paper)](https://dl.acm.org/doi/10.1145/3447993.3483274)
+  * Object detection; Edge devices; GPU
+* [MobiCom 2020] NEMO: enabling neural-enhanced video streaming on commodity mobile devices [(Paper)](https://dl.acm.org/doi/abs/10.1145/3372224.3419185)
+  * Video super-resolution; Smartphones; GPU
 
 ### A-2. Single-DNN Inference on Heterogeneous Mobile Processors
-**Application-specific optimization**
-* [MobiCom 2024] Perceptual-Centric Image Super-Resolution using Heterogeneous Processors on Mobile Devices [(Paper)](https://dl.acm.org/doi/10.1145/3636534.3690698)
-  * Single-image super-resolution; Smartphones; GPU + NPU
-* [IPSN 2023] PointSplit: Towards On-device 3D Object Detection with Heterogeneous Low-power Accelerators [(Paper)](https://dl.acm.org/doi/abs/10.1145/3583120.3587045)
-  * 3D object detection; Edge devices; GPU + NPU
-* [MobiCom 2019] MobiSR: Efficient On-Device Super-Resolution through Heterogeneous Mobile Processors [(Paper)](https://dl.acm.org/doi/10.1145/3300061.3345455)
-  * Single-image super-resolution; Smartphones; CPU + GPU + DSP (NPU)
-
 **General DNN inference**
 * [EuroSys 2025] Flex: Fast, Accurate DNN Inference on Low-Cost Edges Using Heterogeneous Accelerator Execution [(Paper)](https://dl.acm.org/doi/10.1145/3689031.3696067)
   * Smartphones; CPU + GPU + NPU (TPU/DSP)
@@ -66,12 +57,15 @@ This list highlights academic work focused on running AI models efficiently on r
 * [IPSN 2021] Efficient Execution of Deep Neural Networks on Mobile Devices with NPU [(Paper)](https://dl.acm.org/doi/10.1145/3412382.3458272)
   * CNN; Smartphones; CPU + NPU 
 
+**Application-specific optimization**
+* [MobiCom 2024] Perceptual-Centric Image Super-Resolution using Heterogeneous Processors on Mobile Devices [(Paper)](https://dl.acm.org/doi/10.1145/3636534.3690698)
+  * Single-image super-resolution; Smartphones; GPU + NPU
+* [IPSN 2023] PointSplit: Towards On-device 3D Object Detection with Heterogeneous Low-power Accelerators [(Paper)](https://dl.acm.org/doi/abs/10.1145/3583120.3587045)
+  * 3D object detection; Edge devices; GPU + NPU
+* [MobiCom 2019] MobiSR: Efficient On-Device Super-Resolution through Heterogeneous Mobile Processors [(Paper)](https://dl.acm.org/doi/10.1145/3300061.3345455)
+  * Single-image super-resolution; Smartphones; CPU + GPU + DSP (NPU)
 
 ### B-1. Multi-DNN Inference on Single Mobile Processors
-**Application-specific optimization**
-* [MobiCom 2020] Heimdall: Mobile GPU Coordination Platform for Augmented Reality Applications [(Paper)](https://dl.acm.org/doi/10.1145/3372224.3419192)
-  * Augmented reality; Smartphones; GPU
-
 **General DNN inference**
 * [IEEE TMC 2024] SwapNet: Efficient Swapping for DNN Inference on Edge AI Devices Beyond the Memory Budget [(Paper)](https://ieeexplore.ieee.org/abstract/document/10403957)
   * CNN; Edge devices; GPU
@@ -85,6 +79,11 @@ This list highlights academic work focused on running AI models efficiently on r
   * NPU (Simulation)
 * [MobiCom 2021] LegoDNN: Block-grained Scaling of Deep Neural Networks for Mobile Vision [(Paper)](https://arxiv.org/abs/2112.09852)
   * Edge devices & smartphones; CPU or GPU
+
+**Application-specific optimization**
+* [MobiCom 2020] Heimdall: Mobile GPU Coordination Platform for Augmented Reality Applications [(Paper)](https://dl.acm.org/doi/10.1145/3372224.3419192)
+  * Augmented reality; Smartphones; GPU
+
 
 ### B-2. Multiple DNN Inference on Heterogeneous Mobile Processors
 **Application-specific optimization**
