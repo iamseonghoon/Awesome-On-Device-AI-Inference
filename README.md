@@ -25,10 +25,10 @@ This list highlights academic work focused on running AI models efficiently on r
   * LLM; Smartphones; NPU (Simulation)
 * [ASPLOS 2025] Fast On-device LLM Inference with NPUs [(Paper)](https://dl.acm.org/doi/10.1145/3669940.3707239)
   * LLM; Smartphones; NPU
-* [TMC 2025] NeuroBalancer: Balancing System Frequencies With Punctual Laziness for Timely and Energy-Efficient DNN Inferences [(Paper)](https://ieeexplore.ieee.org/abstract/document/10819653)
+* [IEEE TMC 2025] NeuroBalancer: Balancing System Frequencies With Punctual Laziness for Timely and Energy-Efficient DNN Inferences [(Paper)](https://ieeexplore.ieee.org/abstract/document/10819653)
   * CNN; Smartphones; GPU
 * [ASPLOS 2024] SmartMem: Layout Transformation Elimination and Adaptation for Efficient DNN Execution on Mobile [(Paper)](https://dl.acm.org/doi/10.1145/3620666.3651384)
-  * CNN, Transformer, and LLM, Smartphones; GPU
+  * CNN, Transformer, and LLM; Smartphones; GPU
 * [MobiCom 2024] Mobile Foundation Model as Firmware [(Paper)](https://dl.acm.org/doi/10.1145/3636534.3649361)
   * Foundation model; Edge devices & smartphones; CPU or GPU
 * [ASPLOS 2023] STI: Turbocharge NLP Inference at the Edge via Elastic Pipelining [(Paper)](https://dl.acm.org/doi/10.1145/3575693.3575698)
@@ -73,6 +73,8 @@ This list highlights academic work focused on running AI models efficiently on r
   * Augmented reality; Smartphones; GPU
 
 **General DNN inference**
+* [IEEE TMC 2024] SwapNet: Efficient Swapping for DNN Inference on Edge AI Devices Beyond the Memory Budget [(Paper)](https://ieeexplore.ieee.org/abstract/document/10403957)
+  * CNN; Edge devices; GPU
 * [MobiSys 2024] Pantheon: Preemptible Multi-DNN Inference on Mobile Edge GPUs [(Paper)](https://dl.acm.org/doi/pdf/10.1145/3643832.3661878)
   * Edge devices; GPU
 * [MICRO 2023] Sparse-DySta: Sparsity-Aware Dynamic and Static Scheduling for Sparse Multi-DNN Workloads [(Paper)](https://dl.acm.org/doi/10.1145/3613424.3614263)
