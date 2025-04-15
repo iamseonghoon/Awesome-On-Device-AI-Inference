@@ -18,29 +18,28 @@ This list highlights academic work focused on running AI models efficiently on r
 * [MobiCom 2020] NEMO: enabling neural-enhanced video streaming on commodity mobile devices [(Paper)](https://dl.acm.org/doi/abs/10.1145/3372224.3419185)
   * Video super-resolution; Smartphones; GPU
 
-**Traditional DNNs**
-* [TMC 2025] NeuroBalancer: Balancing System Frequencies With Punctual Laziness for Timely and Energy-Efficient DNN Inferences [(Paper)](https://ieeexplore.ieee.org/abstract/document/10819653)
-  * Smartphones; GPU
-* [MobiCom 2022] Romou: Rapidly Generate High-Performance Tensor Kernels for Mobile GPUs [(Paper)](https://dl.acm.org/doi/10.1145/3495243.3517020)
-  * Smartphones; GPU
-* [MobiCom 2022] NeuLens: Spatial-based Dynamic Acceleration of Convolutional Neural Networks on Edge [(Paper)](https://dl.acm.org/doi/abs/10.1145/3495243.3560528)
-  * Edge devices; GPU
-* [MobiCom 2021] AsyMo: Scalable and Efficient Deep-Learning Inference on Asymmetric Mobile CPUs [(Paper)](https://dl.acm.org/doi/10.1145/3447993.3448625)
-  * Smartphones; CPU
-
-**Transformer-based models**
+**General DNN inference**
 * [MLSys 2025] MAS-Attention: Memory-Aware Stream Processing for Attention Acceleration on Resource-Constrained Edge Devices [(Paper)](https://arxiv.org/abs/2411.17720)
-  * Edge devices; NPU
+  * Attention-based NN; Edge devices; NPU
 * [MLSys 2025] Efficient LLM Inference using Dynamic Input Pruning and Cache-Aware Masking [(Paper)](https://arxiv.org/abs/2412.01380)
   * LLM; Smartphones; NPU (Simulation)
 * [ASPLOS 2025] Fast On-device LLM Inference with NPUs [(Paper)](https://dl.acm.org/doi/10.1145/3669940.3707239)
   * LLM; Smartphones; NPU
+* [TMC 2025] NeuroBalancer: Balancing System Frequencies With Punctual Laziness for Timely and Energy-Efficient DNN Inferences [(Paper)](https://ieeexplore.ieee.org/abstract/document/10819653)
+  * CNN; Smartphones; GPU
 * [ASPLOS 2024] SmartMem: Layout Transformation Elimination and Adaptation for Efficient DNN Execution on Mobile [(Paper)](https://dl.acm.org/doi/10.1145/3620666.3651384)
-  * Smartphones; GPU
+  * CNN, Transformer, and LLM, Smartphones; GPU
 * [MobiCom 2024] Mobile Foundation Model as Firmware [(Paper)](https://dl.acm.org/doi/10.1145/3636534.3649361)
-  * Edge devices & smartphones; CPU or GPU
-* [ASPLOS 2023] STI: Turbocharge NLP Inference at the Edge via Elastic Pipelining [(Paper)](...)
-  * NLP (e.g., BERT); Edge devices; CPU or GPU
+  * Foundation model; Edge devices & smartphones; CPU or GPU
+* [ASPLOS 2023] STI: Turbocharge NLP Inference at the Edge via Elastic Pipelining [(Paper)](https://dl.acm.org/doi/10.1145/3575693.3575698)
+  * NLP (BERT); Edge devices; CPU or GPU
+* [MobiCom 2022] Romou: Rapidly Generate High-Performance Tensor Kernels for Mobile GPUs [(Paper)](https://dl.acm.org/doi/10.1145/3495243.3517020)
+  * CNN; Smartphones; GPU
+* [MobiCom 2022] NeuLens: Spatial-based Dynamic Acceleration of Convolutional Neural Networks on Edge [(Paper)](https://dl.acm.org/doi/abs/10.1145/3495243.3560528)
+  * CNN; Edge devices; GPU
+* [MobiCom 2021] AsyMo: Scalable and Efficient Deep-Learning Inference on Asymmetric Mobile CPUs [(Paper)](https://dl.acm.org/doi/10.1145/3447993.3448625)
+  * CNN and RNN; Smartphones; CPU
+
 
 ### A-2. Single-DNN Inference on Heterogeneous Mobile Processors
 **Application-specific optimization**
@@ -51,32 +50,33 @@ This list highlights academic work focused on running AI models efficiently on r
 * [MobiCom 2019] MobiSR: Efficient On-Device Super-Resolution through Heterogeneous Mobile Processors [(Paper)](https://dl.acm.org/doi/10.1145/3300061.3345455)
   * Single-image super-resolution; Smartphones; CPU + GPU + DSP (NPU)
 
-**Traditional DNNs**
+**General DNN inference**
 * [EuroSys 2025] Flex: Fast, Accurate DNN Inference on Low-Cost Edges Using Heterogeneous Accelerator Execution [(Paper)](https://dl.acm.org/doi/10.1145/3689031.3696067)
   * Smartphones; CPU + GPU + NPU (TPU/DSP)
-* [IEEE TMC 2024] Thermal-Aware Scheduling for Deep Learning on Mobile Devices with NPU [(Paper)](https://ieeexplore.ieee.org/document/10478860)
-  * Smartphones; GPU + NPU 
-* [ATC 2023] Decentralized Application-Level Adaptive Scheduling for Multi-Instance DNNs on Open Mobile Devices [(Paper)](https://www.usenix.org/system/files/atc23-sung.pdf)
-  * Smartphones; CPU + GPU 
-* [IPSN 2021] Efficient Execution of Deep Neural Networks on Mobile Devices with NPU [(Paper)](https://dl.acm.org/doi/10.1145/3412382.3458272)
-  * Smartphones; CPU + NPU 
-
-**Transformer-based vision/language models**
-* [INFOCOM 2024] Galaxy: A Resource-Efficient Collaborative Edge AI System for In-situ Transformer Inference [(Paper)](https://ieeexplore.ieee.org/abstract/document/10621342)
-  * Smartphones; CPU + GPU
 * [arXiv 2025] HeteroLLM: Accelerating Large Language Model Inference on Mobile SoCs with Heterogeneous AI Accelerators [(Paper)](https://arxiv.org/abs/2501.14794)
   * LLM; Smartphones; CPU + GPU + NPU
+* [INFOCOM 2024] Galaxy: A Resource-Efficient Collaborative Edge AI System for In-situ Transformer Inference [(Paper)](https://ieeexplore.ieee.org/abstract/document/10621342)
+  * Transformer; Smartphones; CPU + GPU
 * [arXiv 2024] PowerInfer-2: Fast Large Language Model Inference on a Smartphone [(Paper)](https://arxiv.org/abs/2406.06282)
   * LLM; Smartphones; CPU + NPU
+* [IEEE TMC 2024] Thermal-Aware Scheduling for Deep Learning on Mobile Devices with NPU [(Paper)](https://ieeexplore.ieee.org/document/10478860)
+  * CNN; Smartphones; GPU + NPU 
+* [ATC 2023] Decentralized Application-Level Adaptive Scheduling for Multi-Instance DNNs on Open Mobile Devices [(Paper)](https://www.usenix.org/conference/atc23/presentation/sung)
+  * CNN; Smartphones; CPU + GPU 
+* [IPSN 2021] Efficient Execution of Deep Neural Networks on Mobile Devices with NPU [(Paper)](https://dl.acm.org/doi/10.1145/3412382.3458272)
+  * CNN; Smartphones; CPU + NPU 
+
 
 ### B-1. Multi-DNN Inference on Single Mobile Processors
 **Application-specific optimization**
 * [MobiCom 2020] Heimdall: Mobile GPU Coordination Platform for Augmented Reality Applications [(Paper)](https://dl.acm.org/doi/10.1145/3372224.3419192)
   * Augmented reality; Smartphones; GPU
 
-**Traditional DNNs**
+**General DNN inference**
 * [MobiSys 2024] Pantheon: Preemptible Multi-DNN Inference on Mobile Edge GPUs [(Paper)](https://dl.acm.org/doi/pdf/10.1145/3643832.3661878)
   * Edge devices; GPU
+* [MICRO 2023] Sparse-DySta: Sparsity-Aware Dynamic and Static Scheduling for Sparse Multi-DNN Workloads [(Paper)](https://dl.acm.org/doi/10.1145/3613424.3614263)
+  * CNN, Attention-based NN, and NLP; From smartphones to data centers; NPU (Simulation)
 * [SenSys 2023] Miriam: Exploiting Elastic Kernels for Real-time Multi-DNN Inference on Edge GPU [(Paper)](https://dl.acm.org/doi/10.1145/3625687.3625789)
   * Edge devices; GPU
 * [HPCA 2021] Layerweaver: Maximizing Resource Utilization of Neural Processing Units via Layer-Wise Scheduling [(Paper)](https://ieeexplore.ieee.org/document/9407236)
@@ -89,7 +89,7 @@ This list highlights academic work focused on running AI models efficiently on r
 * [MobiSys 2025] ARIA: Optimizing Vision Foundation Model Inference on Heterogeneous Mobile Processors for Augmented Reality [(Paper)]()
   * Vision foundation model for augmented reality; Smartphones
 
-**Traditional DNNs**
+**General DNN inference**
 * [PPoPP 2024] Shared Memory-contention-aware Concurrent DNN Execution for Diversely Heterogeneous SoCs [(Paper)](https://dl.acm.org/doi/pdf/10.1145/3627535.3638502)
   * Edge devices; GPU + DLA (NPU)
 * [MobiSys 2023] NN-Stretch: Automatic Neural Network Branching for Parallel Inference on Heterogeneous Multi-Processors [(Paper)](https://dl.acm.org/doi/abs/10.1145/3581791.3596870)
@@ -106,6 +106,8 @@ This list highlights academic work focused on running AI models efficiently on r
 * [SenSys 2024] Intermittent Inference: Trading a 1% Accuracy Loss for a 1.9 x Throughput Speedup [(Paper)](https://dl.acm.org/doi/10.1145/3666025.3699364)
 * [SenSys 2024] Fast-Inf: Ultra-Fast Embedded Intelligence on the Batteryless Edge [(Paper)](https://dl.acm.org/doi/abs/10.1145/3666025.3699335)
 * [MobiSys 2023] HarvNet: Resource-Optimized Operation of Multi-Exit Deep Neural Networks on Energy Harvesting Devices [(Paper)](https://dl.acm.org/doi/10.1145/3581791.3596845)
+* [ASPLOS 2023] Space-Efficient TREC for Enabling Deep Learning on Microcontrollers [(Paper)](https://dl.acm.org/doi/10.1145/3582016.3582062)
+
 
 ### Challenges
 * [Mobile AI Workshop](https://ai-benchmark.com/workshops/mai/2025/)
