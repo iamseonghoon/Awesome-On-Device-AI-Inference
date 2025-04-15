@@ -39,7 +39,8 @@ This list highlights academic work focused on running AI models efficiently on r
   * Smartphones; GPU
 * [MobiCom 2024] Mobile Foundation Model as Firmware [(Paper)](https://dl.acm.org/doi/10.1145/3636534.3649361)
   * Edge devices & smartphones; CPU or GPU
-
+* [ASPLOS 2023] STI: Turbocharge NLP Inference at the Edge via Elastic Pipelining [(Paper)](...)
+  * NLP (e.g., BERT); Edge devices; CPU or GPU
 
 ### A-2. Single-DNN Inference on Heterogeneous Mobile Processors
 **Application-specific optimization**
