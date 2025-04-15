@@ -83,7 +83,7 @@ This list highlights academic work focused on running AI models efficiently on r
   * NPU (Simulation)
 * [MobiCom 2021] LegoDNN: Block-grained Scaling of Deep Neural Networks for Mobile Vision [(Paper)](https://arxiv.org/abs/2112.09852)
   * Edge devices & smartphones; CPU or GPU
-* [PerCom 2021] MASA: Responsive Multi-DNN Inference on the Edge [(Paper)](
+* [PerCom 2021] MASA: Responsive Multi-DNN Inference on the Edge [(Paper)](https://ieeexplore.ieee.org/document/9439111)
   * CNN; Edge devices (Raspberry Pi); CPU
 
 **Application-specific optimization**
