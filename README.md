@@ -107,8 +107,10 @@ This list highlights academic work focused on running AI models efficiently on r
   * Smartphones; CPU + GPU
 * [SenSys 2022] BlastNet: Exploiting Duo-Blocks for Cross-Processor Real-Time DNN Inference [(Paper)](https://dl.acm.org/doi/10.1145/3560905.3568520)
   * Edge devices; CPU + GPU
+* [ACM TACO 2021] SLO-Aware Inference Scheduler for Heterogeneous Processors in Edge Platforms [(Paper)](https://dl.acm.org/doi/10.1145/3460352)
+  * Smartphones, edge devices, and desktop computers; CPU + GPU + DSP (NPU)
 * [RTSS 2019] Pipelined Data-Parallel CPU/GPU Scheduling for Multi-DNN Real-Time Inference [(Paper)](https://ieeexplore.ieee.org/document/9052147)
-  * Edge devices (NVIDIA TX2) and desktop-level devices (Intel x86 Xeon); CPU + GPU
+  * Edge devices (NVIDIA TX2) and desktop computers (Intel x86 Xeon); CPU + GPU
 
 
 ### C. Single-DNN Inference on Microcontrollers
