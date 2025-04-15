@@ -56,10 +56,14 @@ This list highlights academic work focused on running AI models efficiently on r
   * CNN; Smartphones; CPU + GPU 
 * [IPSN 2021] Efficient Execution of Deep Neural Networks on Mobile Devices with NPU [(Paper)](https://dl.acm.org/doi/10.1145/3412382.3458272)
   * CNN; Smartphones; CPU + NPU 
+* [EuroSys 2019] µLayer: Low Latency On-Device Inference Using Cooperative Single-Layer Acceleration and Processor-Friendly Quantization [(Paper)](https://dl.acm.org/doi/abs/10.1145/3302424.3303950)
+  * CNN; Smartphones; CPU + GPU
 
 **Application-specific optimization**
 * [MobiCom 2024] Perceptual-Centric Image Super-Resolution using Heterogeneous Processors on Mobile Devices [(Paper)](https://dl.acm.org/doi/10.1145/3636534.3690698)
   * Single-image super-resolution; Smartphones; GPU + NPU
+* [ICDE 2024] COUPLE: Orchestrating Video Analytics on Heterogeneous Mobile Processors [(Paper)](https://ieeexplore.ieee.org/abstract/document/10597847)
+  * Video analytics (object detection); Smartphones; GPU + DSP (NPU)
 * [IPSN 2023] PointSplit: Towards On-device 3D Object Detection with Heterogeneous Low-power Accelerators [(Paper)](https://dl.acm.org/doi/abs/10.1145/3583120.3587045)
   * 3D object detection; Edge devices; GPU + NPU
 * [MobiCom 2019] MobiSR: Efficient On-Device Super-Resolution through Heterogeneous Mobile Processors [(Paper)](https://dl.acm.org/doi/10.1145/3300061.3345455)
@@ -79,6 +83,8 @@ This list highlights academic work focused on running AI models efficiently on r
   * NPU (Simulation)
 * [MobiCom 2021] LegoDNN: Block-grained Scaling of Deep Neural Networks for Mobile Vision [(Paper)](https://arxiv.org/abs/2112.09852)
   * Edge devices & smartphones; CPU or GPU
+* [PerCom 2021] MASA: Responsive Multi-DNN Inference on the Edge [(Paper)](
+  * CNN; Edge devices (Raspberry Pi); CPU
 
 **Application-specific optimization**
 * [MobiCom 2020] Heimdall: Mobile GPU Coordination Platform for Augmented Reality Applications [(Paper)](https://dl.acm.org/doi/10.1145/3372224.3419192)
@@ -86,13 +92,11 @@ This list highlights academic work focused on running AI models efficiently on r
 
 
 ### B-2. Multiple DNN Inference on Heterogeneous Mobile Processors
-**Application-specific optimization**
-* [MobiSys 2025] ARIA: Optimizing Vision Foundation Model Inference on Heterogeneous Mobile Processors for Augmented Reality [(Paper)]()
-  * Vision foundation model for augmented reality; Smartphones
-
 **General DNN inference**
 * [PPoPP 2024] Shared Memory-contention-aware Concurrent DNN Execution for Diversely Heterogeneous SoCs [(Paper)](https://dl.acm.org/doi/pdf/10.1145/3627535.3638502)
   * Edge devices; GPU + DLA (NPU)
+* [SEC 2024] Elastic Execution of Multi-Tenant DNNs on Heterogeneous Edge MPSoCs [(Paper)](https://ieeexplore.ieee.org/document/10817905)
+  * Smartphones; CPU + GPU + DSP (NPU)
 * [MobiSys 2023] NN-Stretch: Automatic Neural Network Branching for Parallel Inference on Heterogeneous Multi-Processors [(Paper)](https://dl.acm.org/doi/abs/10.1145/3581791.3596870)
   * Smartphones; CPU + GPU + DSP (NPU)
 * [MobiSys 2022] Band: Coordinated Multi-DNN Inference on Heterogeneous Mobile Processors [(Paper)](https://dl.acm.org/doi/pdf/10.1145/3498361.3538948)
@@ -101,6 +105,12 @@ This list highlights academic work focused on running AI models efficiently on r
   * Smartphones; CPU + GPU
 * [SenSys 2022] BlastNet: Exploiting Duo-Blocks for Cross-Processor Real-Time DNN Inference [(Paper)](https://dl.acm.org/doi/10.1145/3560905.3568520)
   * Edge devices; CPU + GPU
+* [RTSS 2019] Pipelined Data-Parallel CPU/GPU Scheduling for Multi-DNN Real-Time Inference [(Paper)](https://ieeexplore.ieee.org/document/9052147)
+  * Edge devices (NVIDIA TX2) and desktop-level devices (Intel x86 Xeon); CPU + GPU
+
+**Application-specific optimization**
+* [MobiSys 2025] ARIA: Optimizing Vision Foundation Model Inference on Heterogeneous Mobile Processors for Augmented Reality [(Paper)]()
+  * Vision foundation model for augmented reality; Smartphones
 
 ### C. Single-DNN Inference on Microcontrollers
 * [SenSys 2025] Lupe: Integrating the Top-down Approach with DNN Execution on Ultra-Low-Power Devices [(Paper)](https://people.cs.uchicago.edu/~myxiang/papers/lupe.pdf)
