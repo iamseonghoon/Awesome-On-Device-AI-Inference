@@ -1,13 +1,7 @@
 # Awesome-On-Device-AI-Inference 🔍📲
 This list highlights academic work focused on running AI models efficiently on resource-constrained mobile devices, including (1) **edge devices** (e.g., NVIDIA Jetson), (2) **smartphones** (e.g., Snapdragon/Exynos), (3) and **microcontrollers** for energy-harvesting or batteryless IoT devices, with a primary focus on research conducted for edge devices & smartphones. Just so you know, this repo references [Awesome-On-Device-AI-Systems](https://github.com/jeho-lee/Awesome-On-Device-AI-Systems) by [Jeho Lee](https://jeho-lee.github.io/). 
 
-### A. Single-DNN Inference on Microcontrollers
-* [SenSys 2025] Lupe: Integrating the Top-down Approach with DNN Execution on Ultra-Low-Power Devices [(Paper)](https://people.cs.uchicago.edu/~myxiang/papers/lupe.pdf)
-* [SenSys 2024] Intermittent Inference: Trading a 1% Accuracy Loss for a 1.9 x Throughput Speedup [(Paper)](https://dl.acm.org/doi/10.1145/3666025.3699364)
-* [SenSys 2024] Fast-Inf: Ultra-Fast Embedded Intelligence on the Batteryless Edge [(Paper)](https://dl.acm.org/doi/abs/10.1145/3666025.3699335)
-* [MobiSys 2023] HarvNet: Resource-Optimized Operation of Multi-Exit Deep Neural Networks on Energy Harvesting Devices [(Paper)](https://dl.acm.org/doi/10.1145/3581791.3596845)
-
-### B-1. Single-DNN Inference on Single Mobile Processors
+### A-1. Single-DNN Inference on Single Mobile Processors
 **Application-specific tasks**
 * [AAAI 2025] E4: Energy-Efficient DNN Inference for Edge Video Analytics Via Early Exiting and DVFS [(Paper)](https://ojs.aaai.org/index.php/AAAI/article/view/32104)
   * Video analytics; Edge devices; GPU
@@ -47,7 +41,7 @@ This list highlights academic work focused on running AI models efficiently on r
   * Edge devices & smartphones; CPU or GPU
 
 
-### B-2. Single-DNN Inference on Heterogeneous Mobile Processors
+### A-2. Single-DNN Inference on Heterogeneous Mobile Processors
 **Application-specific tasks**
 * [MobiCom 2024] Perceptual-Centric Image Super-Resolution using Heterogeneous Processors on Mobile Devices [(Paper)](https://dl.acm.org/doi/10.1145/3636534.3690698)
   * Single-image super-resolution; Smartphones; GPU + NPU
@@ -74,7 +68,7 @@ This list highlights academic work focused on running AI models efficiently on r
 * [arXiv 2024] PowerInfer-2: Fast Large Language Model Inference on a Smartphone [(Paper)](https://arxiv.org/abs/2406.06282)
   * LLM; Smartphones; CPU + NPU
 
-### C-1. Multi-DNN Inference on Single Mobile Processors
+### B-1. Multi-DNN Inference on Single Mobile Processors
 **Application-specific tasks**
 * [MobiCom 2020] Heimdall: Mobile GPU Coordination Platform for Augmented Reality Applications [(Paper)](https://dl.acm.org/doi/10.1145/3372224.3419192)
   * Augmented reality; Smartphones; GPU
@@ -89,7 +83,7 @@ This list highlights academic work focused on running AI models efficiently on r
 * [MobiCom 2021] LegoDNN: Block-grained Scaling of Deep Neural Networks for Mobile Vision [(Paper)](https://arxiv.org/abs/2112.09852)
   * Edge devices & smartphones; CPU or GPU
 
-### C-2. Multiple DNN Inference on Heterogeneous Mobile Processors
+### B-2. Multiple DNN Inference on Heterogeneous Mobile Processors
 **Application-specific tasks**
 * [MobiSys 2025] ARIA: Optimizing Vision Foundation Model Inference on Heterogeneous Mobile Processors for Augmented Reality [(Paper)]()
   * Vision foundation model for augmented reality; Smartphones
@@ -105,6 +99,12 @@ This list highlights academic work focused on running AI models efficiently on r
   * Smartphones; CPU + GPU
 * [SenSys 2022] BlastNet: Exploiting Duo-Blocks for Cross-Processor Real-Time DNN Inference [(Paper)](https://dl.acm.org/doi/10.1145/3560905.3568520)
   * Edge devices; CPU + GPU
+
+### C. Single-DNN Inference on Microcontrollers
+* [SenSys 2025] Lupe: Integrating the Top-down Approach with DNN Execution on Ultra-Low-Power Devices [(Paper)](https://people.cs.uchicago.edu/~myxiang/papers/lupe.pdf)
+* [SenSys 2024] Intermittent Inference: Trading a 1% Accuracy Loss for a 1.9 x Throughput Speedup [(Paper)](https://dl.acm.org/doi/10.1145/3666025.3699364)
+* [SenSys 2024] Fast-Inf: Ultra-Fast Embedded Intelligence on the Batteryless Edge [(Paper)](https://dl.acm.org/doi/abs/10.1145/3666025.3699335)
+* [MobiSys 2023] HarvNet: Resource-Optimized Operation of Multi-Exit Deep Neural Networks on Energy Harvesting Devices [(Paper)](https://dl.acm.org/doi/10.1145/3581791.3596845)
 
 ### Challenges
 * [Mobile AI Workshop](https://ai-benchmark.com/workshops/mai/2025/)
