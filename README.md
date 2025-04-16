@@ -1,5 +1,5 @@
 # Awesome-On-Device-AI-Inference 🔍📲
-This list highlights academic work focused on running AI models efficiently on resource-constrained mobile devices, including (1) **edge devices** (e.g., NVIDIA Jetson), (2) **smartphones** (e.g., Snapdragon/Exynos), (3) and **microcontrollers** for energy-harvesting or batteryless IoT devices, with a primary focus on research conducted for edge devices & smartphones. Just so you know, this repo references [Awesome-On-Device-AI-Systems](https://github.com/jeho-lee/Awesome-On-Device-AI-Systems) by [Jeho Lee](https://jeho-lee.github.io/). 
+This list highlights academic work focused on running AI models efficiently on resource-constrained mobile devices, including (1) **edge devices** (e.g., NVIDIA Jetson), (2) **smartphones** (e.g., Snapdragon/Exynos), (3) and **microcontrollers** for energy-harvesting or batteryless IoT devices, with a primary focus on research conducted for edge devices & smartphones. This repo references [Awesome-On-Device-AI-Systems](https://github.com/jeho-lee/Awesome-On-Device-AI-Systems) by [Jeho Lee](https://jeho-lee.github.io/). 
 
 ### A-1. Single-DNN Inference on Single Mobile Processors
 **General DNN inference**
@@ -14,6 +14,8 @@ This list highlights academic work focused on running AI models efficiently on r
   * CNN; Smartphones; GPU
 * [ASPLOS 2024] SmartMem: Layout Transformation Elimination and Adaptation for Efficient DNN Execution on Mobile [(Paper)](https://dl.acm.org/doi/10.1145/3620666.3651384)
   * CNN, Transformer, and LLM; Smartphones; GPU
+* [MobiCom 2024] FlexNN: Efficient and Adaptive DNN Inference on Memory-Constrained Edge Devices [(Paper)]
+  * CNN; Smartphones; CPU
 * [MobiCom 2024] Mobile Foundation Model as Firmware [(Paper)](https://dl.acm.org/doi/10.1145/3636534.3649361)
   * Foundation model; Edge devices & smartphones; CPU or GPU
 * [ASPLOS 2023] STI: Turbocharge NLP Inference at the Edge via Elastic Pipelining [(Paper)](https://dl.acm.org/doi/10.1145/3575693.3575698)
