@@ -70,7 +70,7 @@ This list highlights academic work focused on running AI models efficiently on r
 * [MobiCom 2019] MobiSR: Efficient On-Device Super-Resolution through Heterogeneous Mobile Processors [(Paper)](https://dl.acm.org/doi/10.1145/3300061.3345455)
   * Single-image super-resolution; Smartphones; CPU + GPU + DSP (NPU)
 
-### A-3. Single-DNN Inference on Multiple Mobile Devices
+### A-3. Single-DNN Inference across Multiple Mobile Devices
 * [INFOCOM 2024] Galaxy: A Resource-Efficient Collaborative Edge AI System for In-situ Transformer Inference [(Paper)](https://ieeexplore.ieee.org/abstract/document/10621342)
   * Transformer; Multiple edge devices; CPU + GPU
 
