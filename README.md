@@ -3,6 +3,8 @@ This list highlights academic work focused on running AI models efficiently on r
 
 ### A-1. Single-DNN Inference on Single Mobile Processors
 **General DNN inference**
+* [MobiCom] D^2MoE: Dual Routing and Dynamic Scheduling for Efficient On-Device MoE-based LLM Serving (To Appear)
+  * MoE-based LLM; Edge devices; GPU
 * [MLSys 2025] MAS-Attention: Memory-Aware Stream Processing for Attention Acceleration on Resource-Constrained Edge Devices [(Paper)](https://arxiv.org/abs/2411.17720)
   * Attention-based NN; Edge devices; NPU
 * [MLSys 2025] Efficient LLM Inference using Dynamic Input Pruning and Cache-Aware Masking [(Paper)](https://arxiv.org/abs/2412.01380)
