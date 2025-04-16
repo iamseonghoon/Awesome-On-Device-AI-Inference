@@ -48,8 +48,6 @@ This list highlights academic work focused on running AI models efficiently on r
   * Smartphones; CPU + GPU + NPU (TPU/DSP)
 * [arXiv 2025] HeteroLLM: Accelerating Large Language Model Inference on Mobile SoCs with Heterogeneous AI Accelerators [(Paper)](https://arxiv.org/abs/2501.14794)
   * LLM; Smartphones; CPU + GPU + NPU
-* [INFOCOM 2024] Galaxy: A Resource-Efficient Collaborative Edge AI System for In-situ Transformer Inference [(Paper)](https://ieeexplore.ieee.org/abstract/document/10621342)
-  * Transformer; Smartphones; CPU + GPU
 * [arXiv 2024] PowerInfer-2: Fast Large Language Model Inference on a Smartphone [(Paper)](https://arxiv.org/abs/2406.06282)
   * LLM; Smartphones; CPU + NPU
 * [IEEE TMC 2024] Thermal-Aware Scheduling for Deep Learning on Mobile Devices with NPU [(Paper)](https://ieeexplore.ieee.org/document/10478860)
@@ -70,6 +68,10 @@ This list highlights academic work focused on running AI models efficiently on r
   * 3D object detection; Edge devices; GPU + NPU
 * [MobiCom 2019] MobiSR: Efficient On-Device Super-Resolution through Heterogeneous Mobile Processors [(Paper)](https://dl.acm.org/doi/10.1145/3300061.3345455)
   * Single-image super-resolution; Smartphones; CPU + GPU + DSP (NPU)
+
+### A-3. Single-DNN Inference on Multiple Mobile Devices
+* [INFOCOM 2024] Galaxy: A Resource-Efficient Collaborative Edge AI System for In-situ Transformer Inference [(Paper)](https://ieeexplore.ieee.org/abstract/document/10621342)
+  * Transformer; Multiple edge devices; CPU + GPU
 
 ### B-1. Multi-DNN Inference on Single Mobile Processors
 **General DNN inference**
