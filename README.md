@@ -14,7 +14,7 @@ This list highlights academic work focused on running AI models efficiently on r
   * CNN; Smartphones; GPU
 * [ASPLOS 2024] SmartMem: Layout Transformation Elimination and Adaptation for Efficient DNN Execution on Mobile [(Paper)](https://dl.acm.org/doi/10.1145/3620666.3651384)
   * CNN, Transformer, and LLM; Smartphones; GPU
-* [MobiCom 2024] FlexNN: Efficient and Adaptive DNN Inference on Memory-Constrained Edge Devices [(Paper)]
+* [MobiCom 2024] FlexNN: Efficient and Adaptive DNN Inference on Memory-Constrained Edge Devices [(Paper)](https://dl.acm.org/doi/10.1145/3636534.3649391)
   * CNN; Smartphones; CPU
 * [MobiCom 2024] Mobile Foundation Model as Firmware [(Paper)](https://dl.acm.org/doi/10.1145/3636534.3649361)
   * Foundation model; Edge devices & smartphones; CPU or GPU
