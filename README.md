@@ -119,12 +119,18 @@ This list highlights academic work focused on running AI models efficiently on r
 
 
 ### C. Single-DNN Inference on Microcontrollers
-* [SenSys 2025] Lupe: Integrating the Top-down Approach with DNN Execution on Ultra-Low-Power Devices [(Paper)](https://people.cs.uchicago.edu/~myxiang/papers/lupe.pdf)
+* [SenSys 2025] Lupe: Integrating the Top-down Approach with DNN Execution on Ultra-Low-Power Devices (To Appear)
+  * Ultra-low-power MCU (MSP430 series)
 * [SenSys 2024] Intermittent Inference: Trading a 1% Accuracy Loss for a 1.9 x Throughput Speedup [(Paper)](https://dl.acm.org/doi/10.1145/3666025.3699364)
+  * High-performance MCU (ARM Cortex-M series)
 * [SenSys 2024] Fast-Inf: Ultra-Fast Embedded Intelligence on the Batteryless Edge [(Paper)](https://dl.acm.org/doi/abs/10.1145/3666025.3699335)
+  * Ultra-low-power MCU (MSP430 series)
 * [MobiSys 2023] HarvNet: Resource-Optimized Operation of Multi-Exit Deep Neural Networks on Energy Harvesting Devices [(Paper)](https://dl.acm.org/doi/10.1145/3581791.3596845)
+  * Ultra-low-power MCU (MSP430 series)
 * [ASPLOS 2023] Space-Efficient TREC for Enabling Deep Learning on Microcontrollers [(Paper)](https://dl.acm.org/doi/10.1145/3582016.3582062)
-
+  * High-performance MCU (ARM Cortex-M series)
+* [MLSys 2021] MicroNets: Neural Network Architectures for Deploying TinyML Applications on Commodity Microcontrollers [(Paper)](https://proceedings.mlsys.org/paper_files/paper/2021/hash/c4d41d9619462c534b7b61d1f772385e-Abstract.html)
+  * High-performance MCU (ARM Cortex-M series)
 
 ### Challenges
 * [Mobile AI Workshop](https://ai-benchmark.com/workshops/mai/2025/)
