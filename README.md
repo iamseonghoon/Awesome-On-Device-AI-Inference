@@ -100,7 +100,7 @@ This list highlights academic work focused on running AI models efficiently on r
 
 ### B-2. Multiple DNN Inference on Heterogeneous Mobile Processors
 **General DNN inference**
-* [PPoPP 2024] Shared Memory-contention-aware Concurrent DNN Execution for Diversely Heterogeneous SoCs [(Paper)](https://dl.acm.org/doi/pdf/10.1145/3627535.3638502)
+* [PPoPP 2024] Shared Memory-contention-aware Concurrent DNN Execution for Diversely Heterogeneous SoCs (HaX-CoNN) [(Paper)](https://dl.acm.org/doi/pdf/10.1145/3627535.3638502)
   * Edge devices; GPU + DLA (NPU)
 * [SEC 2024] Elastic Execution of Multi-Tenant DNNs on Heterogeneous Edge MPSoCs [(Paper)](https://ieeexplore.ieee.org/document/10817905)
   * Smartphones; CPU + GPU + DSP (NPU)
