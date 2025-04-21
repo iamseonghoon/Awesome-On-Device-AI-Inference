@@ -31,7 +31,7 @@ This list highlights academic work focused on running AI models efficiently on r
 * [MobiCom 2021] AsyMo: Scalable and Efficient Deep-Learning Inference on Asymmetric Mobile CPUs [(Paper)](https://dl.acm.org/doi/10.1145/3447993.3448625)
   * CNN and RNN; Smartphones; CPU
 * [PLDI 2021] DNNFusion: Accelerating Deep Neural Networks Execution with Advanced Operator Fusion [(Paper)](https://dl.acm.org/doi/10.1145/3453483.3454083)
-  * CNN and Transformer (NLP); Smartphones; CPU or GPU
+  * CNN and Transformer; Smartphones; CPU or GPU
 
 **Application-specific optimization**
 * [MobiSys 2025] ARIA: Optimizing Vision Foundation Model Inference on Heterogeneous Mobile Processors for Augmented Reality (To Appear)
