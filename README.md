@@ -24,6 +24,8 @@ This list highlights academic work focused on running AI models efficiently on r
   * CNN; Smartphones; GPU
 * [MobiCom 2022] NeuLens: Spatial-based Dynamic Acceleration of Convolutional Neural Networks on Edge [(Paper)](https://dl.acm.org/doi/abs/10.1145/3495243.3560528)
   * CNN; Edge devices; GPU
+* [MICRO 2022] GCD2:AGlobally Optimizing Compiler for Mapping DNNs to Mobile DSPs [(Paper)](https://ieeexplore.ieee.org/document/9923837)
+  * CNN and GAN; Smartphones; DSP (NPU)
 * [MobiCom 2021] AsyMo: Scalable and Efficient Deep-Learning Inference on Asymmetric Mobile CPUs [(Paper)](https://dl.acm.org/doi/10.1145/3447993.3448625)
   * CNN and RNN; Smartphones; CPU
 
@@ -55,6 +57,8 @@ This list highlights academic work focused on running AI models efficiently on r
   * LLM; Smartphones; CPU + NPU
 * [IEEE TMC 2024] Thermal-Aware Scheduling for Deep Learning on Mobile Devices with NPU [(Paper)](https://ieeexplore.ieee.org/document/10478860)
   * CNN; Smartphones; GPU + NPU 
+* [ICDE 2023] EdgeNN: Efficient Neural Network Inference for CPU-GPU Integrated Edge Devices [(Paper)](https://ieeexplore.ieee.org/document/10184528)
+  * CNN; Edge devices; CPU + GPU
 * [ATC 2023] Decentralized Application-Level Adaptive Scheduling for Multi-Instance DNNs on Open Mobile Devices [(Paper)](https://www.usenix.org/conference/atc23/presentation/sung)
   * CNN; Smartphones; CPU + GPU 
 * [IPSN 2021] Efficient Execution of Deep Neural Networks on Mobile Devices with NPU [(Paper)](https://dl.acm.org/doi/10.1145/3412382.3458272)
