@@ -9,7 +9,7 @@ This list highlights academic work focused on running AI models efficiently on r
   * Attention-based NN; Edge devices; NPU
 * [MLSys 2025] Efficient LLM Inference using Dynamic Input Pruning and Cache-Aware Masking [(Paper)](https://arxiv.org/abs/2412.01380)
   * LLM; Smartphones; NPU (Simulation)
-* [ASPLOS 2025] Fast On-device LLM Inference with NPUs [(Paper)](https://dl.acm.org/doi/10.1145/3669940.3707239)
+* [ASPLOS 2025] Fast On-device LLM Inference with NPUs (llm.npu) [(Paper)](https://dl.acm.org/doi/10.1145/3669940.3707239)
   * LLM; Smartphones; NPU
 * [IEEE TMC 2025] NeuroBalancer: Balancing System Frequencies With Punctual Laziness for Timely and Energy-Efficient DNN Inferences [(Paper)](https://ieeexplore.ieee.org/abstract/document/10819653)
   * CNN; Smartphones; GPU
