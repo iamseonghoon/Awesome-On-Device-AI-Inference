@@ -36,7 +36,7 @@ This list highlights academic work focused on running AI models efficiently on r
 
 **Application-specific optimization**
 * [MobiSys 2025] ARIA: Optimizing Vision Foundation Model Inference on Heterogeneous Mobile Processors for Augmented Reality (To Appear)
-  * Vision foundation model for augmented reality; Smartphones
+  * Vision foundation model for AR; Smartphones
 * [AAAI 2025] E4: Energy-Efficient DNN Inference for Edge Video Analytics Via Early Exiting and DVFS [(Paper)](https://ojs.aaai.org/index.php/AAAI/article/view/32104)
   * Video analytics; Edge devices; GPU
 * [MobiCom 2024] Panopticus: Omnidirectional 3D Object Detection on Resource-constrained Edge Devices [(Paper)](https://arxiv.org/abs/2410.01270)
@@ -56,10 +56,10 @@ This list highlights academic work focused on running AI models efficiently on r
 
 ### A-2. Single-DNN Inference on Heterogeneous Mobile Processors
 **General DNN inference**
+* [SOSP 2025] HeteroLLM: Accelerating Large Language Model Inference on Mobile SoCs with Heterogeneous AI Accelerators [(Paper)](https://arxiv.org/abs/2501.14794)
+  * LLM; Smartphones; CPU + GPU + NPU
 * [EuroSys 2025] Flex: Fast, Accurate DNN Inference on Low-Cost Edges Using Heterogeneous Accelerator Execution [(Paper)](https://dl.acm.org/doi/10.1145/3689031.3696067)
   * Smartphones; CPU + GPU + NPU (TPU/DSP)
-* [arXiv 2025] HeteroLLM: Accelerating Large Language Model Inference on Mobile SoCs with Heterogeneous AI Accelerators [(Paper)](https://arxiv.org/abs/2501.14794)
-  * LLM; Smartphones; CPU + GPU + NPU
 * [arXiv 2024] PowerInfer-2: Fast Large Language Model Inference on a Smartphone [(Paper)](https://arxiv.org/abs/2406.06282)
   * LLM; Smartphones; CPU + NPU
 * [IEEE TMC 2024] Thermal-Aware Scheduling for Deep Learning on Mobile Devices with NPU [(Paper)](https://ieeexplore.ieee.org/document/10478860)
