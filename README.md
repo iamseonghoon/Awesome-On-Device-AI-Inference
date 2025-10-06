@@ -29,6 +29,8 @@ This list highlights academic work focused on running AI models efficiently on r
   * CNN and Transformer; Smartphones; CPU or GPU
  
 **General DNN inference (Language)**
+* [SenSys 2026] LLM as a System Service on Mobile Devices [(Preprint)](https://arxiv.org/pdf/2403.11805)
+  * LLM as a system service (LLMaaS); Edge devices (GPU) & smartphones (NPU)
 * [EuroSys 2026] Scaling LLM Test-Time Compute with Mobile NPU on Smartphones [(Preprint)](https://arxiv.org/pdf/2509.23324)
   * LLM; Smartphones; NPU
 * [MobiCom 2025] Elastic On-Device LLM Service (ElastiLM) [(Paper)](https://xumengwei.github.io/files/MobiCom25-ElastiLM.pdf)
