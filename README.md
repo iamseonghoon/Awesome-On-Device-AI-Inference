@@ -23,6 +23,8 @@ This list highlights academic work focused on running AI models efficiently on r
   * Foundation model; Edge devices & smartphones; CPU or GPU
 * [MobiSys 2024] Empowering In-Browser Deep Learning Inference on Edge Devices with Just-in-Time Kernel Optimization [(Paper)](https://dl.acm.org/doi/10.1145/3643832.3661892)
   * Transformer; Smartphones & laptops; (Web)GPU
+* [MobiSys 2023] Boosting DNN Cold Inference on Edge Devices [(Paper)](https://dl.acm.org/doi/10.1145/3581791.3596842)
+  * Cold inference for general DNNs; Edge CPUs or Edge GPUs
 * [ASPLOS 2023] STI: Turbocharge NLP Inference at the Edge via Elastic Pipelining [(Paper)](https://dl.acm.org/doi/10.1145/3575693.3575698)
   * NLP (BERT); Edge devices; CPU or GPU
 * [MobiCom 2022] Romou: Rapidly Generate High-Performance Tensor Kernels for Mobile GPUs [(Paper)](https://dl.acm.org/doi/10.1145/3495243.3517020)
