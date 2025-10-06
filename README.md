@@ -4,7 +4,7 @@ This list highlights academic work focused on running AI models efficiently on r
 ### A-1. Single-DNN Inference on Single Mobile Processors
 **General DNN inference**
 * [EuroSys 2026] Scaling LLM Test-Time Compute with Mobile NPU on Smartphones [(Preprint)](https://arxiv.org/pdf/2509.23324)
- * LLM; Smartphones; NPU
+  * LLM; Smartphones; NPU
 * [MLSys 2025] AWQ: Activation-aware Weight Quantization for On-Device LLM Compression and Acceleration [(Paper)](https://proceedings.mlsys.org/paper_files/paper/2024/hash/42a452cbafa9dd64e9ba4aa95cc1ef21-Abstract-Conference.html)
   * LLM; Desktop & edge devices; GPU
 * [MLSys 2025] MAS-Attention: Memory-Aware Stream Processing for Attention Acceleration on Resource-Constrained Edge Devices [(Paper)](https://arxiv.org/abs/2411.17720)
