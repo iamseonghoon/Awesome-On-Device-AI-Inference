@@ -80,9 +80,11 @@ This list highlights academic work focused on running AI models efficiently on r
   * CNN; Smartphones; CPU + GPU
 
 **General DNN inference (Language)**
+* [arXiv 2025] Dynamic Sparse Attention on Mobile SoCs [(Preprint)](https://arxiv.org/pdf/2508.16703?)
+  * LLM (Attention); Smartphones; NPU + CPU/GPU
 * [SOSP 2025] Characterizing Mobile SoC for Accelerating Heterogeneous LLM Inference (HeteroLLM) [(Preprint)](https://arxiv.org/abs/2501.14794)
   * LLM; Smartphones; CPU + GPU + NPU
-* [arXiv 2024] PowerInfer-2: Fast Large Language Model Inference on a Smartphone [(Paper)](https://arxiv.org/abs/2406.06282)
+* [arXiv 2024] PowerInfer-2: Fast Large Language Model Inference on a Smartphone [(Preprint)](https://arxiv.org/abs/2406.06282)
   * LLM; Smartphones; CPU + NPU
 
 **Application-specific optimization**
