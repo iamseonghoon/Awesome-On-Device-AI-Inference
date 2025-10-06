@@ -58,7 +58,7 @@ This list highlights academic work focused on running AI models efficiently on r
 
 ### A-2. Single-DNN Inference on Heterogeneous Mobile Processors
 **General DNN inference**
-* [SOSP 2025] HeteroLLM: Accelerating Large Language Model Inference on Mobile SoCs with Heterogeneous AI Accelerators [(Paper)](https://arxiv.org/abs/2501.14794)
+* [SOSP 2025] Characterizing Mobile SoC for Accelerating Heterogeneous LLM Inference (HeteroLLM) [(Preprint)](https://arxiv.org/abs/2501.14794)
   * LLM; Smartphones; CPU + GPU + NPU
 * [EuroSys 2025] Flex: Fast, Accurate DNN Inference on Low-Cost Edges Using Heterogeneous Accelerator Execution [(Paper)](https://dl.acm.org/doi/10.1145/3689031.3696067)
   * Smartphones; CPU + GPU + NPU (TPU/DSP)
