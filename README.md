@@ -2,17 +2,9 @@
 This list highlights academic work focused on running AI models efficiently on resource-constrained mobile devices, including (1) **edge devices** (e.g., NVIDIA Jetson), (2) **smartphones** (e.g., Snapdragon/Exynos), (3) and **microcontrollers** for energy-harvesting or batteryless IoT devices, with a primary focus on research conducted for edge devices & smartphones. This repo references [Awesome-On-Device-AI-Systems](https://github.com/jeho-lee/Awesome-On-Device-AI-Systems) by [Jeho Lee](https://jeho-lee.github.io/). 
 
 ### A-1. Single-DNN Inference on Single Mobile Processors
-**General DNN inference**
-* [EuroSys 2026] Scaling LLM Test-Time Compute with Mobile NPU on Smartphones [(Preprint)](https://arxiv.org/pdf/2509.23324)
-  * LLM; Smartphones; NPU
-* [MLSys 2025] AWQ: Activation-aware Weight Quantization for On-Device LLM Compression and Acceleration [(Paper)](https://proceedings.mlsys.org/paper_files/paper/2024/hash/42a452cbafa9dd64e9ba4aa95cc1ef21-Abstract-Conference.html)
-  * LLM; Desktop & edge devices; GPU
+**General DNN inference (Vision)**
 * [MLSys 2025] MAS-Attention: Memory-Aware Stream Processing for Attention Acceleration on Resource-Constrained Edge Devices [(Paper)](https://arxiv.org/abs/2411.17720)
   * Attention-based NN; Edge devices; NPU
-* [MLSys 2025] Efficient LLM Inference using Dynamic Input Pruning and Cache-Aware Masking [(Paper)](https://arxiv.org/abs/2412.01380)
-  * LLM; Smartphones; NPU (Simulation)
-* [ASPLOS 2025] Fast On-device LLM Inference with NPUs (llm.npu) [(Paper)](https://dl.acm.org/doi/10.1145/3669940.3707239)
-  * LLM; Smartphones; NPU
 * [IEEE TMC 2025] NeuroBalancer: Balancing System Frequencies With Punctual Laziness for Timely and Energy-Efficient DNN Inferences [(Paper)](https://ieeexplore.ieee.org/abstract/document/10819653)
   * CNN; Smartphones; GPU
 * [ASPLOS 2024] SmartMem: Layout Transformation Elimination and Adaptation for Efficient DNN Execution on Mobile [(Paper)](https://dl.acm.org/doi/10.1145/3620666.3651384)
@@ -25,8 +17,6 @@ This list highlights academic work focused on running AI models efficiently on r
   * Transformer; Smartphones & laptops; (Web)GPU
 * [MobiSys 2023] Boosting DNN Cold Inference on Edge Devices [(Paper)](https://dl.acm.org/doi/10.1145/3581791.3596842)
   * Cold inference for general DNNs; Edge CPUs or Edge GPUs
-* [ASPLOS 2023] STI: Turbocharge NLP Inference at the Edge via Elastic Pipelining [(Paper)](https://dl.acm.org/doi/10.1145/3575693.3575698)
-  * NLP (BERT); Edge devices; CPU or GPU
 * [MobiCom 2022] Romou: Rapidly Generate High-Performance Tensor Kernels for Mobile GPUs [(Paper)](https://dl.acm.org/doi/10.1145/3495243.3517020)
   * CNN; Smartphones; GPU
 * [MobiCom 2022] NeuLens: Spatial-based Dynamic Acceleration of Convolutional Neural Networks on Edge [(Paper)](https://dl.acm.org/doi/abs/10.1145/3495243.3560528)
@@ -37,6 +27,18 @@ This list highlights academic work focused on running AI models efficiently on r
   * CNN and RNN; Smartphones; CPU
 * [PLDI 2021] DNNFusion: Accelerating Deep Neural Networks Execution with Advanced Operator Fusion [(Paper)](https://dl.acm.org/doi/10.1145/3453483.3454083)
   * CNN and Transformer; Smartphones; CPU or GPU
+ 
+**General DNN inference (Language)**
+* [EuroSys 2026] Scaling LLM Test-Time Compute with Mobile NPU on Smartphones [(Preprint)](https://arxiv.org/pdf/2509.23324)
+  * LLM; Smartphones; NPU
+* [MLSys 2025] AWQ: Activation-aware Weight Quantization for On-Device LLM Compression and Acceleration [(Paper)](https://proceedings.mlsys.org/paper_files/paper/2024/hash/42a452cbafa9dd64e9ba4aa95cc1ef21-Abstract-Conference.html)
+  * LLM; Desktop & edge devices; GPU
+* [MLSys 2025] Efficient LLM Inference using Dynamic Input Pruning and Cache-Aware Masking [(Paper)](https://arxiv.org/abs/2412.01380)
+  * LLM; Smartphones; NPU (Simulation)
+* [ASPLOS 2025] Fast On-device LLM Inference with NPUs (llm.npu) [(Paper)](https://dl.acm.org/doi/10.1145/3669940.3707239)
+  * LLM; Smartphones; NPU
+* [ASPLOS 2023] STI: Turbocharge NLP Inference at the Edge via Elastic Pipelining [(Paper)](https://dl.acm.org/doi/10.1145/3575693.3575698)
+  * NLP (BERT); Edge devices; CPU or GPU
 
 **Application-specific optimization**
 * [MobiSys 2025] ARIA: Optimizing Vision Foundation Model Inference on Heterogeneous Mobile Processors for Augmented Reality (To Appear)
@@ -59,13 +61,9 @@ This list highlights academic work focused on running AI models efficiently on r
   * Video super-resolution; Smartphones; GPU
 
 ### A-2. Single-DNN Inference on Heterogeneous Mobile Processors
-**General DNN inference**
-* [SOSP 2025] Characterizing Mobile SoC for Accelerating Heterogeneous LLM Inference (HeteroLLM) [(Preprint)](https://arxiv.org/abs/2501.14794)
-  * LLM; Smartphones; CPU + GPU + NPU
+**General DNN inference (Vision)**
 * [EuroSys 2025] Flex: Fast, Accurate DNN Inference on Low-Cost Edges Using Heterogeneous Accelerator Execution [(Paper)](https://dl.acm.org/doi/10.1145/3689031.3696067)
   * Smartphones; CPU + GPU + NPU (TPU/DSP)
-* [arXiv 2024] PowerInfer-2: Fast Large Language Model Inference on a Smartphone [(Paper)](https://arxiv.org/abs/2406.06282)
-  * LLM; Smartphones; CPU + NPU
 * [IEEE TMC 2024] Thermal-Aware Scheduling for Deep Learning on Mobile Devices with NPU [(Paper)](https://ieeexplore.ieee.org/document/10478860)
   * CNN; Smartphones; GPU + NPU 
 * [ICDE 2023] EdgeNN: Efficient Neural Network Inference for CPU-GPU Integrated Edge Devices [(Paper)](https://ieeexplore.ieee.org/document/10184528)
@@ -76,6 +74,12 @@ This list highlights academic work focused on running AI models efficiently on r
   * CNN; Smartphones; CPU + NPU 
 * [EuroSys 2019] µLayer: Low Latency On-Device Inference Using Cooperative Single-Layer Acceleration and Processor-Friendly Quantization [(Paper)](https://dl.acm.org/doi/abs/10.1145/3302424.3303950)
   * CNN; Smartphones; CPU + GPU
+
+**General DNN inference (Language)**
+* [SOSP 2025] Characterizing Mobile SoC for Accelerating Heterogeneous LLM Inference (HeteroLLM) [(Preprint)](https://arxiv.org/abs/2501.14794)
+  * LLM; Smartphones; CPU + GPU + NPU
+* [arXiv 2024] PowerInfer-2: Fast Large Language Model Inference on a Smartphone [(Paper)](https://arxiv.org/abs/2406.06282)
+  * LLM; Smartphones; CPU + NPU
 
 **Application-specific optimization**
 * [MobiCom 2024] Perceptual-Centric Image Super-Resolution using Heterogeneous Processors on Mobile Devices [(Paper)](https://dl.acm.org/doi/10.1145/3636534.3690698)
