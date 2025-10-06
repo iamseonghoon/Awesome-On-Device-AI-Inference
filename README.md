@@ -31,6 +31,8 @@ This list highlights academic work focused on running AI models efficiently on r
 **General DNN inference (Language)**
 * [EuroSys 2026] Scaling LLM Test-Time Compute with Mobile NPU on Smartphones [(Preprint)](https://arxiv.org/pdf/2509.23324)
   * LLM; Smartphones; NPU
+* [MobiCom 2025] Elastic On-Device LLM Service (ElastiLM) [(Paper)](https://xumengwei.github.io/files/MobiCom25-ElastiLM.pdf)
+  * LLM service; Smartphones; CPU (GPU/NPU: via "what-if" simulation)
 * [MLSys 2025] AWQ: Activation-aware Weight Quantization for On-Device LLM Compression and Acceleration [(Paper)](https://proceedings.mlsys.org/paper_files/paper/2024/hash/42a452cbafa9dd64e9ba4aa95cc1ef21-Abstract-Conference.html)
   * LLM; Desktop & edge devices; GPU
 * [MLSys 2025] Efficient LLM Inference using Dynamic Input Pruning and Cache-Aware Masking [(Paper)](https://arxiv.org/abs/2412.01380)
